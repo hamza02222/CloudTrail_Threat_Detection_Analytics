@@ -1,0 +1,10 @@
+{
+  "filename": "environment_info.json",
+  "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_02\\environment_info.json",
+  "sha256": "6c4d91031477c1e8f03abd3fe741f981956f0b1ab0431acbac8a6a984b9e0157",
+  "created_by": "Data Analytics Project",
+  "created_at": "2025-12-06T12:41:57.473491",
+  "description": "done environment Settings and system information",
+  "dataset_version": "1.0.0",
+  "notebook_version": "1.0.0"
+}

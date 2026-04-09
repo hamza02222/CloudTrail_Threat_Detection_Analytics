@@ -1,0 +1,37 @@
+{
+  "report_generated": "2025-12-06T12:44:45.394856",
+  "Look_period": "Full Dataset",
+  "metrics": {
+    "Finding": {
+      "total_events_analyzed": 19806,
+      "threats_detected": 1243,
+      "Finding_rate_percent": 6.28,
+      "true_positive_rate": 80.0
+    },
+    "alert_quality": {
+      "total_alerts": 1243,
+      "critical_alerts": 5,
+      "high_priority_alerts": 1,
+      "actionable_rate_percent": 0.08,
+      "estimated_fpr": 20.0
+    },
+    "efficiency": {
+      "events_per_alert": 15.93,
+      "alert_reduction_ratio": 93.72,
+      "model_used": "RandomForest",
+      "features_used": 20
+    },
+    "coverage": {
+      "unique_event_types": 247,
+      "unique_identities": 0,
+      "mitre_tactics_covered": 6,
+      "Finding_rules": 4
+    },
+    "model_Speed": {
+      "model_name": "RandomForest",
+      "cv_f1_score": 0.8,
+      "cv_auc_score": 0.85,
+      "training_accuracy": 0.82
+    }
+  }
+}

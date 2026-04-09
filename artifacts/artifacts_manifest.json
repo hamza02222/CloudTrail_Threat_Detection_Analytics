@@ -1,0 +1,2862 @@
+[
+  {
+    "filename": "dataset_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+    "sha256": "eb500b08e50f25f73dbf1fc4a1f98d305d89aca36f3d776d2a9b55f2f79304da",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:58:33.743451",
+    "description": "Project Settings and dataset summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "environment_info.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_02\\environment_info.json",
+    "sha256": "4e958a8a740a039a6bca2b6c42c5b8d7e7f2c85b04e43e5d064ad37a8b27d0f0",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:58:45.884174",
+    "description": "done environment Settings and system information",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Loading_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_03\\Loading_report.json",
+    "sha256": "e221c3458acbadf808816857014fa8539e41412277acb5372efc6f9ae20f7974",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:58:53.392267",
+    "description": "Data Loading report with file metadata and load times",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "data_dictionary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\data_dictionary.json",
+    "sha256": "a00b12b6356b7ad396f32074ce5533bf423a0c6c4e94191e8fdebc2abc82e31f",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:58:56.096601",
+    "description": "full data dictionary with field metadata",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_json.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_json.json",
+    "sha256": "3426de8dfed32e0834bcf87a730c8de9a81b3b17a4e1e71a9ed0f801cd8bb616",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:58:56.103274",
+    "description": "JSON Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_avro.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_avro.json",
+    "sha256": "bd78e5abc5696e1f91ffe126b1fd5b6ac8319c19009352c652bfb435af924711",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:58:56.105336",
+    "description": "Avro Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "column_transforms.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_05\\column_transforms.json",
+    "sha256": "c653f1a62251678e5f3a1ca5af56ad4b086436b75b33b9ac48a7ff320067f336",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:58:58.292745",
+    "description": "Column Changing log including ARN parsing and timestamp Cleanup",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cleaning_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_06\\cleaning_report.json",
+    "sha256": "a55190515f52ac50741de6ecca7e8cbe368abd02d4b619b0c8a5d22d9415811a",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:59:00.716143",
+    "description": "Data cleaning report with duplicate and missing value Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Time_stats.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_07\\Time_stats.json",
+    "sha256": "ca485261f9714983824badd1cb1bc6ce41bdc862f483e7edfde92d68a649d7fc",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:59:03.587521",
+    "description": "Time Look statistics including hourly, daily, and weekly patterns",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "principal_stats.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_08\\principal_stats.json",
+    "sha256": "234d087a6885ee22d5e627d2daf1002fc8d33a557da8c6137d7ec8936691705e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:59:06.275903",
+    "description": "Principal and IAM Look statistics",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "eventname_map.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_09\\eventname_map.json",
+    "sha256": "4777c181295ca9c758deab2bc52621e650fbbffdc4fa9c1db4ba418ffae7015e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:59:08.224830",
+    "description": "Event name and service mapping with categorization",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "asn_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_10\\asn_report.json",
+    "sha256": "62c84b264042082f15027cd7d891c97fa5814be66d7f4bc2cdb5004f985112d4",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:59:11.251177",
+    "description": "Location and ASN Look report",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cluster_profiles.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_14\\cluster_profiles.json",
+    "sha256": "7dec71903dab2cff546778ba59ecc6f32d47e02050439a0ab41f41eb5597e674",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:59:24.585252",
+    "description": "Cluster feature profiles from UMAP+HDBSCAN Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "label_provenance.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_16\\label_provenance.json",
+    "sha256": "0d8409d3fbdff1b4578d3ac12f0e8e42c7679fc7ffbff3a399df311f43121521",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:59:28.009605",
+    "description": "Label creation rules and provenance",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "model_comparison.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_17\\model_comparison.json",
+    "sha256": "e1fe68b00799f43df4b087e63cbd5fbad1c4a5497842edb1aecb780290547dc6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:59:32.860461",
+    "description": "Basic model comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "tuning_results.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_18\\tuning_results.json",
+    "sha256": "4dc67740e022ec81d76c2ebb81329c1255a37e8beb5bab5a48329ff2a7233ba5",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:59:46.049821",
+    "description": "Parameter tuning results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "counterfactuals.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_19\\counterfactuals.json",
+    "sha256": "1a3004a01818687748003eab4fca3dcf910eaa28a31616d32a2cde018876b640",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:59:55.163697",
+    "description": "Counterfactual examples for threat predictions",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "imbalance_comparison.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_20\\imbalance_comparison.json",
+    "sha256": "5fa19ef023bccac3a2aaf4fbe5e70d586097c9bab27eabb7b426d8d1e9f6461b",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T17:59:57.761674",
+    "description": "Class imbalance handling comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "sequence_config.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_21\\sequence_config.json",
+    "sha256": "0772b7cc51cd46a97d7ff3ecdbfb283b9837265779121144aec3314252cc413c",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:00:02.525950",
+    "description": "Sequence model Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "change_Finding_results.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_22\\change_Finding_results.json",
+    "sha256": "35dca3315b81bb9e1df8616d6518758a391e4ef26187d0129837c55541378cd6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:00:04.940746",
+    "description": "Change point and drift Finding results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "priority_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_23\\priority_summary.json",
+    "sha256": "50aadb4d078c32905ecc21fa30b06ea45d3465b7262f0f088d943eebf90216ee",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:00:06.173415",
+    "description": "Alert priority summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "threat_hunting_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_24\\threat_hunting_report.json",
+    "sha256": "75cbc6778abcc706b3ec8d1f2bc64e79d76d899220894a7748d40e29fe6acc57",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:00:09.471533",
+    "description": "Threat hunting findings and IOCs",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Workflow_config.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_27\\Workflow_config.json",
+    "sha256": "6a1c5047378c6e60be0ac1f5e2b9a6ca095e67e5a5a7a24d7b6a2712d68de454",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:00:15.417374",
+    "description": "Live Workflow Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "ops_metrics_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_29\\ops_metrics_report.json",
+    "sha256": "cffa0607e723b96eb028bc65967ae6f60e9822cd401497bd6ab37b27a278004a",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:00:19.195444",
+    "description": "Operational metrics report for threat Finding system",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Look_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_30\\Look_summary.json",
+    "sha256": "e28322ef68d28f3ee30b3f0810aa74ab05926fcd07720286f61647537097d254",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:00:20.986755",
+    "description": "done Look summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "dataset_summary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+    "sha256": "1307433ab9399975d1640939b3efc8bec822a1b47a0f3b7fec7035608b8b7de8",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:02:04.815667",
+    "description": "Project Settings and dataset summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "environment_info.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_02\\environment_info.json",
+    "sha256": "5e1be4b51d166ec9be97f7222c2c6b9f959da1302a81df1952dd9e19fadf282b",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:02:20.638758",
+    "description": "done environment Settings and system information",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Loading_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_03\\Loading_report.json",
+    "sha256": "a83742d9167c1292af6c380eefbaf65d881513871714644ce4fe155953d12ae6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:02:30.831822",
+    "description": "Data Loading report with file metadata and load times",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "data_dictionary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\data_dictionary.json",
+    "sha256": "a00b12b6356b7ad396f32074ce5533bf423a0c6c4e94191e8fdebc2abc82e31f",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:02:36.859361",
+    "description": "full data dictionary with field metadata",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_json.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_json.json",
+    "sha256": "3426de8dfed32e0834bcf87a730c8de9a81b3b17a4e1e71a9ed0f801cd8bb616",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:02:36.865258",
+    "description": "JSON Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_avro.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_avro.json",
+    "sha256": "bd78e5abc5696e1f91ffe126b1fd5b6ac8319c19009352c652bfb435af924711",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:02:36.871109",
+    "description": "Avro Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "column_transforms.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_05\\column_transforms.json",
+    "sha256": "c653f1a62251678e5f3a1ca5af56ad4b086436b75b33b9ac48a7ff320067f336",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:02:41.651824",
+    "description": "Column Changing log including ARN parsing and timestamp Cleanup",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cleaning_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_06\\cleaning_report.json",
+    "sha256": "b04d64a25e196726ca7b4587e5b6cf6e2e57ec1692f3658aca3dfba5c45f62af",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:02:47.275536",
+    "description": "Data cleaning report with duplicate and missing value Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Time_stats.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_07\\Time_stats.json",
+    "sha256": "ca485261f9714983824badd1cb1bc6ce41bdc862f483e7edfde92d68a649d7fc",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:02:54.024492",
+    "description": "Time Look statistics including hourly, daily, and weekly patterns",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "principal_stats.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_08\\principal_stats.json",
+    "sha256": "234d087a6885ee22d5e627d2daf1002fc8d33a557da8c6137d7ec8936691705e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:02:59.501750",
+    "description": "Principal and IAM Look statistics",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "eventname_map.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_09\\eventname_map.json",
+    "sha256": "4777c181295ca9c758deab2bc52621e650fbbffdc4fa9c1db4ba418ffae7015e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:03:03.628437",
+    "description": "Event name and service mapping with categorization",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "asn_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_10\\asn_report.json",
+    "sha256": "62c84b264042082f15027cd7d891c97fa5814be66d7f4bc2cdb5004f985112d4",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:03:10.013262",
+    "description": "Location and ASN Look report",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cluster_profiles.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_14\\cluster_profiles.json",
+    "sha256": "7dec71903dab2cff546778ba59ecc6f32d47e02050439a0ab41f41eb5597e674",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:03:36.759469",
+    "description": "Cluster feature profiles from UMAP+HDBSCAN Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "label_provenance.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_16\\label_provenance.json",
+    "sha256": "0d8409d3fbdff1b4578d3ac12f0e8e42c7679fc7ffbff3a399df311f43121521",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:03:44.234451",
+    "description": "Label creation rules and provenance",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "model_comparison.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_17\\model_comparison.json",
+    "sha256": "e1fe68b00799f43df4b087e63cbd5fbad1c4a5497842edb1aecb780290547dc6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:03:53.373431",
+    "description": "Basic model comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "tuning_results.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_18\\tuning_results.json",
+    "sha256": "4dc67740e022ec81d76c2ebb81329c1255a37e8beb5bab5a48329ff2a7233ba5",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:04:27.115317",
+    "description": "Parameter tuning results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "counterfactuals.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_19\\counterfactuals.json",
+    "sha256": "1a3004a01818687748003eab4fca3dcf910eaa28a31616d32a2cde018876b640",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:04:42.887007",
+    "description": "Counterfactual examples for threat predictions",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "imbalance_comparison.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_20\\imbalance_comparison.json",
+    "sha256": "5fa19ef023bccac3a2aaf4fbe5e70d586097c9bab27eabb7b426d8d1e9f6461b",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:04:48.251277",
+    "description": "Class imbalance handling comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "sequence_config.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_21\\sequence_config.json",
+    "sha256": "24e75bdeacf804726aa5f268866c170f45b460c6df4c5833437949f04ce7566a",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:04:57.398606",
+    "description": "Sequence model Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "change_Finding_results.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_22\\change_Finding_results.json",
+    "sha256": "35dca3315b81bb9e1df8616d6518758a391e4ef26187d0129837c55541378cd6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:05:02.780739",
+    "description": "Change point and drift Finding results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "priority_summary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_23\\priority_summary.json",
+    "sha256": "50aadb4d078c32905ecc21fa30b06ea45d3465b7262f0f088d943eebf90216ee",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:05:05.449045",
+    "description": "Alert priority summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "threat_hunting_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_24\\threat_hunting_report.json",
+    "sha256": "395e185113ade618f14630049e40ff3247951909d8077c8a927756578f871815",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:05:12.312431",
+    "description": "Threat hunting findings and IOCs",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Workflow_config.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_27\\Workflow_config.json",
+    "sha256": "840f4ce6407c3a98a45fb6340faa046a79b1739bc0b63fc2acd306912bdd51c5",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:05:26.514407",
+    "description": "Live Workflow Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "ops_metrics_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_29\\ops_metrics_report.json",
+    "sha256": "7c8cd652aacc68fff626d5f701d593bf6ee73ea192e8fd151ea436f65794fa83",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:05:35.197789",
+    "description": "Operational metrics report for threat Finding system",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Look_summary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_30\\Look_summary.json",
+    "sha256": "78510b32ac13778f70414ab8bc102f5ac75d42347a9342e47ca445ad6ebddc26",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-01T18:05:39.218645",
+    "description": "done Look summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "dataset_summary.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+    "sha256": "1ae7ced331319a7f77a2e37866f5cae22e11c8283ec2a43ee76abe4f460a2ce2",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T15:47:46.136873",
+    "description": "Project Settings and dataset summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "data_dictionary.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\data_dictionary.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T15:47:46.701738",
+    "description": "full data dictionary with field metadata",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_json.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_json.json",
+    "sha256": "b22f95d43ad072f3a7c19922c07220c1f37827c9e9b3911eb3096517f0ed959a",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T15:47:46.720021",
+    "description": "JSON Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_avro.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_avro.json",
+    "sha256": "d47263b4064b2195c91a3d6e3202a79a92ea5b1e0c4e8352f94f8b0eafbdf154",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T15:47:46.735282",
+    "description": "Avro Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Time_stats.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_07\\Time_stats.json",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T15:47:47.286140",
+    "description": "Time Look statistics including hourly, daily, and weekly patterns",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "dataset_summary.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+    "sha256": "fabbc17bc3260a3de1f3b8b02b9b77c78c7e7c50e727d7240d301e9b7789c45f",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:00:33.849124",
+    "description": "Project Settings and dataset summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "environment_info.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_02\\environment_info.json",
+    "sha256": "aa4b7ad583cfde3d9f6eae05b621393cbe118d3cbb4d7515dfb8e13d37818da3",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:01:35.315757",
+    "description": "done environment Settings and system information",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Loading_report.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_03\\Loading_report.json",
+    "sha256": "d1cd600f903570dcfc704ea162f7d484c20ad9f40a4de5b2112a9468b2ea8c9d",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:01:42.713202",
+    "description": "Data Loading report with file metadata and load times",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "data_dictionary.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\data_dictionary.json",
+    "sha256": "a00b12b6356b7ad396f32074ce5533bf423a0c6c4e94191e8fdebc2abc82e31f",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:01:45.510489",
+    "description": "full data dictionary with field metadata",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_json.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_json.json",
+    "sha256": "3426de8dfed32e0834bcf87a730c8de9a81b3b17a4e1e71a9ed0f801cd8bb616",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:01:45.532329",
+    "description": "JSON Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_avro.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_avro.json",
+    "sha256": "bd78e5abc5696e1f91ffe126b1fd5b6ac8319c19009352c652bfb435af924711",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:01:45.557292",
+    "description": "Avro Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "column_transforms.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_05\\column_transforms.json",
+    "sha256": "c653f1a62251678e5f3a1ca5af56ad4b086436b75b33b9ac48a7ff320067f336",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:01:50.971752",
+    "description": "Column Changing log including ARN parsing and timestamp Cleanup",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cleaning_report.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_06\\cleaning_report.json",
+    "sha256": "d126a582db80a876380506d7fad97b0d2327cf15f932f952ae6fb9b3031cf79b",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:01:53.205511",
+    "description": "Data cleaning report with duplicate and missing value Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Time_stats.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_07\\Time_stats.json",
+    "sha256": "ca485261f9714983824badd1cb1bc6ce41bdc862f483e7edfde92d68a649d7fc",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:01:56.093664",
+    "description": "Time Look statistics including hourly, daily, and weekly patterns",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "principal_stats.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_08\\principal_stats.json",
+    "sha256": "234d087a6885ee22d5e627d2daf1002fc8d33a557da8c6137d7ec8936691705e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:01:58.706832",
+    "description": "Principal and IAM Look statistics",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "eventname_map.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_09\\eventname_map.json",
+    "sha256": "4777c181295ca9c758deab2bc52621e650fbbffdc4fa9c1db4ba418ffae7015e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:02:00.833669",
+    "description": "Event name and service mapping with categorization",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "asn_report.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_10\\asn_report.json",
+    "sha256": "62c84b264042082f15027cd7d891c97fa5814be66d7f4bc2cdb5004f985112d4",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:02:03.493211",
+    "description": "Location and ASN Look report",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cluster_profiles.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_14\\cluster_profiles.json",
+    "sha256": "7dec71903dab2cff546778ba59ecc6f32d47e02050439a0ab41f41eb5597e674",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:02:25.687068",
+    "description": "Cluster feature profiles from UMAP+HDBSCAN Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "label_provenance.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_16\\label_provenance.json",
+    "sha256": "0d8409d3fbdff1b4578d3ac12f0e8e42c7679fc7ffbff3a399df311f43121521",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:02:29.269016",
+    "description": "Label creation rules and provenance",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "model_comparison.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_17\\model_comparison.json",
+    "sha256": "e1fe68b00799f43df4b087e63cbd5fbad1c4a5497842edb1aecb780290547dc6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:02:38.110509",
+    "description": "Basic model comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "tuning_results.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_18\\tuning_results.json",
+    "sha256": "c3ad5f563ba1f47e3b9e1dd43b40a3de5cb471c41fe10725907bde55d44c2666",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:02:47.360074",
+    "description": "Parameter tuning results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "counterfactuals.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_19\\counterfactuals.json",
+    "sha256": "1a3004a01818687748003eab4fca3dcf910eaa28a31616d32a2cde018876b640",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:02:51.024479",
+    "description": "Counterfactual examples for threat predictions",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "imbalance_comparison.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_20\\imbalance_comparison.json",
+    "sha256": "850979261390fec27b1e5a9e9b0b56c124dc1bb3b23702654f46e4b026947884",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:02:54.073926",
+    "description": "Class imbalance handling comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "sequence_config.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_21\\sequence_config.json",
+    "sha256": "24e75bdeacf804726aa5f268866c170f45b460c6df4c5833437949f04ce7566a",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:02:56.077517",
+    "description": "Sequence model Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "change_Finding_results.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_22\\change_Finding_results.json",
+    "sha256": "35dca3315b81bb9e1df8616d6518758a391e4ef26187d0129837c55541378cd6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:02:58.213558",
+    "description": "Change point and drift Finding results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "priority_summary.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_23\\priority_summary.json",
+    "sha256": "50aadb4d078c32905ecc21fa30b06ea45d3465b7262f0f088d943eebf90216ee",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:02:59.351738",
+    "description": "Alert priority summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "threat_hunting_report.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_24\\threat_hunting_report.json",
+    "sha256": "c54a0e4ce7caec13f8c39db15b54aefa3090d1da90518f2be3533ea16570e2dc",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:03:02.768971",
+    "description": "Threat hunting findings and IOCs",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Workflow_config.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_27\\Workflow_config.json",
+    "sha256": "2831074818889fad971f7c3e5972997622959af030975411a27cca3eeb6ef90e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:03:08.671959",
+    "description": "Live Workflow Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "ops_metrics_report.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_29\\ops_metrics_report.json",
+    "sha256": "14958548f8c81fe2cef49dc6cd34fbf0f2307842660974b2b437fb1af0cf1e7e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:03:12.267147",
+    "description": "Operational metrics report for threat Finding system",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Look_summary.json",
+    "filepath": "c:\\Users\\Shankar\\Downloads\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_30\\Look_summary.json",
+    "sha256": "734212b850002be3f8453dc75a6261b26d58dddf2cfd5db705757b0415de63f4",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:03:13.999839",
+    "description": "done Look summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "dataset_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+    "sha256": "15bee3d43c5f60e868e2e00d509fd9077e9be8a7cb8e46e08c6910e01cf268ad",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:20:09.158453",
+    "description": "Project Settings and dataset summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "environment_info.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_02\\environment_info.json",
+    "sha256": "dc473bcd3038a78801a4e1370277afad0af978def688c6d3048f05a7212a695a",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:20:18.185590",
+    "description": "done environment Settings and system information",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Loading_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_03\\Loading_report.json",
+    "sha256": "19229ea595021238513df150e682ff3a177184e6169a065c77a801776e2e4f1f",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:20:25.702838",
+    "description": "Data Loading report with file metadata and load times",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "data_dictionary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\data_dictionary.json",
+    "sha256": "a00b12b6356b7ad396f32074ce5533bf423a0c6c4e94191e8fdebc2abc82e31f",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:20:28.518188",
+    "description": "full data dictionary with field metadata",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_json.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_json.json",
+    "sha256": "3426de8dfed32e0834bcf87a730c8de9a81b3b17a4e1e71a9ed0f801cd8bb616",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:20:28.530557",
+    "description": "JSON Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_avro.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_avro.json",
+    "sha256": "bd78e5abc5696e1f91ffe126b1fd5b6ac8319c19009352c652bfb435af924711",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:20:28.543409",
+    "description": "Avro Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "column_transforms.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_05\\column_transforms.json",
+    "sha256": "c653f1a62251678e5f3a1ca5af56ad4b086436b75b33b9ac48a7ff320067f336",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:20:30.806598",
+    "description": "Column Changing log including ARN parsing and timestamp Cleanup",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cleaning_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_06\\cleaning_report.json",
+    "sha256": "33867af02a35df19f575b9d1a44adca53a5c23b0bca414b89df6b157b06e1619",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:20:33.016769",
+    "description": "Data cleaning report with duplicate and missing value Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Time_stats.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_07\\Time_stats.json",
+    "sha256": "ca485261f9714983824badd1cb1bc6ce41bdc862f483e7edfde92d68a649d7fc",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:20:35.884518",
+    "description": "Time Look statistics including hourly, daily, and weekly patterns",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "principal_stats.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_08\\principal_stats.json",
+    "sha256": "234d087a6885ee22d5e627d2daf1002fc8d33a557da8c6137d7ec8936691705e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:20:38.400897",
+    "description": "Principal and IAM Look statistics",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "eventname_map.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_09\\eventname_map.json",
+    "sha256": "4777c181295ca9c758deab2bc52621e650fbbffdc4fa9c1db4ba418ffae7015e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:20:40.469574",
+    "description": "Event name and service mapping with categorization",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "asn_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_10\\asn_report.json",
+    "sha256": "62c84b264042082f15027cd7d891c97fa5814be66d7f4bc2cdb5004f985112d4",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:20:43.693039",
+    "description": "Location and ASN Look report",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cluster_profiles.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_14\\cluster_profiles.json",
+    "sha256": "7dec71903dab2cff546778ba59ecc6f32d47e02050439a0ab41f41eb5597e674",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:20:57.169869",
+    "description": "Cluster feature profiles from UMAP+HDBSCAN Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "label_provenance.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_16\\label_provenance.json",
+    "sha256": "0d8409d3fbdff1b4578d3ac12f0e8e42c7679fc7ffbff3a399df311f43121521",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:21:00.500013",
+    "description": "Label creation rules and provenance",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "model_comparison.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_17\\model_comparison.json",
+    "sha256": "e1fe68b00799f43df4b087e63cbd5fbad1c4a5497842edb1aecb780290547dc6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:21:06.866312",
+    "description": "Basic model comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "tuning_results.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_18\\tuning_results.json",
+    "sha256": "c3ad5f563ba1f47e3b9e1dd43b40a3de5cb471c41fe10725907bde55d44c2666",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:21:16.677181",
+    "description": "Parameter tuning results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "counterfactuals.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_19\\counterfactuals.json",
+    "sha256": "1a3004a01818687748003eab4fca3dcf910eaa28a31616d32a2cde018876b640",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:21:20.003231",
+    "description": "Counterfactual examples for threat predictions",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "imbalance_comparison.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_20\\imbalance_comparison.json",
+    "sha256": "850979261390fec27b1e5a9e9b0b56c124dc1bb3b23702654f46e4b026947884",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:21:22.927858",
+    "description": "Class imbalance handling comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "sequence_config.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_21\\sequence_config.json",
+    "sha256": "0772b7cc51cd46a97d7ff3ecdbfb283b9837265779121144aec3314252cc413c",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:21:24.862982",
+    "description": "Sequence model Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "change_Finding_results.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_22\\change_Finding_results.json",
+    "sha256": "35dca3315b81bb9e1df8616d6518758a391e4ef26187d0129837c55541378cd6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:21:26.892015",
+    "description": "Change point and drift Finding results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "priority_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_23\\priority_summary.json",
+    "sha256": "50aadb4d078c32905ecc21fa30b06ea45d3465b7262f0f088d943eebf90216ee",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:21:28.039290",
+    "description": "Alert priority summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "threat_hunting_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_24\\threat_hunting_report.json",
+    "sha256": "ac097976bf072ec70bf2b5ed8bf928d85173be1b57963eb162539bd44e201697",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:21:31.296306",
+    "description": "Threat hunting findings and IOCs",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Workflow_config.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_27\\Workflow_config.json",
+    "sha256": "2ad234da70ec7451f5d42dcc6a485dd7afa20946ff36253aa2314f361aea0792",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:21:37.153923",
+    "description": "Live Workflow Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "ops_metrics_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_29\\ops_metrics_report.json",
+    "sha256": "cc20191fe33959fdc95f504c14a181af88e6fd11e6e5bf8d50cd9b9d033a0452",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:21:40.764155",
+    "description": "Operational metrics report for threat Finding system",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Look_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_30\\Look_summary.json",
+    "sha256": "f39acc729dbcb614e82ec32cf5297c15e8388c3b87c6d151e47b3e41f6621566",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:21:42.520278",
+    "description": "done Look summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "dataset_summary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+    "sha256": "7e368f338c9f21310264fa987bd87fadf8e475220fe948d26685579ac0422aca",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:22:54.299630",
+    "description": "Project Settings and dataset summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "dataset_summary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+    "sha256": "4e47c967dee496aec6a692f091ca8e6e198283d7a750700840ac724786086d27",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:30:12.341785",
+    "description": "Project Settings and dataset summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "environment_info.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_02\\environment_info.json",
+    "sha256": "968f091fe333224c6d0fb262aa4b56711064313e3a9fbe59d3cc9a7db06d81b8",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:30:42.626761",
+    "description": "done environment Settings and system information",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Loading_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_03\\Loading_report.json",
+    "sha256": "daec8f273b11f9c9d84b8b3dd04ebe28246b807e6e3516556942db42ee8e049d",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:30:53.752071",
+    "description": "Data Loading report with file metadata and load times",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "data_dictionary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\data_dictionary.json",
+    "sha256": "a00b12b6356b7ad396f32074ce5533bf423a0c6c4e94191e8fdebc2abc82e31f",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:31:00.915972",
+    "description": "full data dictionary with field metadata",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_json.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_json.json",
+    "sha256": "3426de8dfed32e0834bcf87a730c8de9a81b3b17a4e1e71a9ed0f801cd8bb616",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:31:00.955260",
+    "description": "JSON Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_avro.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_avro.json",
+    "sha256": "bd78e5abc5696e1f91ffe126b1fd5b6ac8319c19009352c652bfb435af924711",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:31:01.010374",
+    "description": "Avro Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "dataset_summary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+    "sha256": "8dfa33653974123065f478008ba42a9a64f5cb5b1dd7769a0d795ef178c392c9",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:35:57.175924",
+    "description": "Project Settings and dataset summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "environment_info.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_02\\environment_info.json",
+    "sha256": "2f99b4d031db7d91c1a596a91b28c66c371d07c5954e64e4fb7688f637573377",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:36:08.686554",
+    "description": "done environment Settings and system information",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Loading_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_03\\Loading_report.json",
+    "sha256": "620ef3b566644ed5969b94eb7245feff1d1839c3aaf0466eeec9f579876d57aa",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:36:18.708991",
+    "description": "Data Loading report with file metadata and load times",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "data_dictionary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\data_dictionary.json",
+    "sha256": "a00b12b6356b7ad396f32074ce5533bf423a0c6c4e94191e8fdebc2abc82e31f",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:36:25.316904",
+    "description": "full data dictionary with field metadata",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_json.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_json.json",
+    "sha256": "3426de8dfed32e0834bcf87a730c8de9a81b3b17a4e1e71a9ed0f801cd8bb616",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:36:25.358935",
+    "description": "JSON Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_avro.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_avro.json",
+    "sha256": "bd78e5abc5696e1f91ffe126b1fd5b6ac8319c19009352c652bfb435af924711",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:36:25.381491",
+    "description": "Avro Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "dataset_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+    "sha256": "cd1420fe621facdeff5733a0f116266afe8fc043a6fa1de46a04ae67d439834e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:46:55.282350",
+    "description": "Project Settings and dataset summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "environment_info.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_02\\environment_info.json",
+    "sha256": "9e9293882e7b8c4eacef00c107b639928c0f51bb6d5aa2151f75d6943836869d",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:47:04.237416",
+    "description": "done environment Settings and system information",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Loading_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_03\\Loading_report.json",
+    "sha256": "c723959ff1f12d36ed32cb5e935eef960fb6beaeaa74233ba119bcf2af646e44",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:47:11.732260",
+    "description": "Data Loading report with file metadata and load times",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "data_dictionary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\data_dictionary.json",
+    "sha256": "a00b12b6356b7ad396f32074ce5533bf423a0c6c4e94191e8fdebc2abc82e31f",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:47:14.513435",
+    "description": "full data dictionary with field metadata",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_json.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_json.json",
+    "sha256": "3426de8dfed32e0834bcf87a730c8de9a81b3b17a4e1e71a9ed0f801cd8bb616",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:47:14.526529",
+    "description": "JSON Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_avro.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_avro.json",
+    "sha256": "bd78e5abc5696e1f91ffe126b1fd5b6ac8319c19009352c652bfb435af924711",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:47:14.550304",
+    "description": "Avro Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "dataset_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+    "sha256": "9d592c841eb36546a37e1fa3481f02e08fc866d3c6da9c2c3b869bfbf278be08",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:50:01.025435",
+    "description": "Project Settings and dataset summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "environment_info.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_02\\environment_info.json",
+    "sha256": "142a69fd87fb09db22161f257f664fb3f9f2f76d78737f790ce54a45b11c56c4",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:50:57.981697",
+    "description": "done environment Settings and system information",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Loading_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_03\\Loading_report.json",
+    "sha256": "59963449a21927b92c549399e55022f03ee8094798d8a1923d5c09f5d4433ce9",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:52:04.072762",
+    "description": "Data Loading report with file metadata and load times",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "data_dictionary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\data_dictionary.json",
+    "sha256": "a00b12b6356b7ad396f32074ce5533bf423a0c6c4e94191e8fdebc2abc82e31f",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:53:29.623071",
+    "description": "full data dictionary with field metadata",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_json.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_json.json",
+    "sha256": "3426de8dfed32e0834bcf87a730c8de9a81b3b17a4e1e71a9ed0f801cd8bb616",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:53:29.636516",
+    "description": "JSON Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_avro.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_avro.json",
+    "sha256": "bd78e5abc5696e1f91ffe126b1fd5b6ac8319c19009352c652bfb435af924711",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:53:29.650326",
+    "description": "Avro Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "column_transforms.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_05\\column_transforms.json",
+    "sha256": "c653f1a62251678e5f3a1ca5af56ad4b086436b75b33b9ac48a7ff320067f336",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:54:38.342379",
+    "description": "Column Changing log including ARN parsing and timestamp Cleanup",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cleaning_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_06\\cleaning_report.json",
+    "sha256": "0d98eb429bedf4c603498ed66cd04a91ecc3478358065a42c8bc97a47659f43e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:56:11.431458",
+    "description": "Data cleaning report with duplicate and missing value Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Time_stats.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_07\\Time_stats.json",
+    "sha256": "ca485261f9714983824badd1cb1bc6ce41bdc862f483e7edfde92d68a649d7fc",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:57:25.643148",
+    "description": "Time Look statistics including hourly, daily, and weekly patterns",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "principal_stats.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_08\\principal_stats.json",
+    "sha256": "234d087a6885ee22d5e627d2daf1002fc8d33a557da8c6137d7ec8936691705e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T16:58:58.590504",
+    "description": "Principal and IAM Look statistics",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "eventname_map.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_09\\eventname_map.json",
+    "sha256": "4777c181295ca9c758deab2bc52621e650fbbffdc4fa9c1db4ba418ffae7015e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:00:07.499704",
+    "description": "Event name and service mapping with categorization",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "asn_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_10\\asn_report.json",
+    "sha256": "62c84b264042082f15027cd7d891c97fa5814be66d7f4bc2cdb5004f985112d4",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:01:09.594634",
+    "description": "Location and ASN Look report",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "dataset_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+    "sha256": "a2496abc146d9f1a1aaa44de307bb109f89018ac56cc3d8d27d8a350b4aec00f",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:04:31.937258",
+    "description": "Project Settings and dataset summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "environment_info.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_02\\environment_info.json",
+    "sha256": "15000d97d84b35e7c97954951e69471c60a1646ee21664dd21332a72b4a07f53",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:04:39.952731",
+    "description": "done environment Settings and system information",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Loading_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_03\\Loading_report.json",
+    "sha256": "629d776ee0fc87c60de4cf83e531ce489835403897ad4e87bbac72c222267760",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:04:47.486813",
+    "description": "Data Loading report with file metadata and load times",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "data_dictionary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\data_dictionary.json",
+    "sha256": "a00b12b6356b7ad396f32074ce5533bf423a0c6c4e94191e8fdebc2abc82e31f",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:04:50.390055",
+    "description": "full data dictionary with field metadata",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_json.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_json.json",
+    "sha256": "3426de8dfed32e0834bcf87a730c8de9a81b3b17a4e1e71a9ed0f801cd8bb616",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:04:50.404110",
+    "description": "JSON Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_avro.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_avro.json",
+    "sha256": "bd78e5abc5696e1f91ffe126b1fd5b6ac8319c19009352c652bfb435af924711",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:04:50.416914",
+    "description": "Avro Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "column_transforms.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_05\\column_transforms.json",
+    "sha256": "c653f1a62251678e5f3a1ca5af56ad4b086436b75b33b9ac48a7ff320067f336",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:04:52.611999",
+    "description": "Column Changing log including ARN parsing and timestamp Cleanup",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cleaning_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_06\\cleaning_report.json",
+    "sha256": "7df7eea341b9b823b322ec058de7760c09a1f896406c3502d101fcf91cd583f8",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:04:54.927242",
+    "description": "Data cleaning report with duplicate and missing value Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Time_stats.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_07\\Time_stats.json",
+    "sha256": "ca485261f9714983824badd1cb1bc6ce41bdc862f483e7edfde92d68a649d7fc",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:04:57.733923",
+    "description": "Time Look statistics including hourly, daily, and weekly patterns",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "principal_stats.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_08\\principal_stats.json",
+    "sha256": "234d087a6885ee22d5e627d2daf1002fc8d33a557da8c6137d7ec8936691705e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:05:00.267825",
+    "description": "Principal and IAM Look statistics",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "eventname_map.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_09\\eventname_map.json",
+    "sha256": "4777c181295ca9c758deab2bc52621e650fbbffdc4fa9c1db4ba418ffae7015e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:05:02.245159",
+    "description": "Event name and service mapping with categorization",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "asn_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_10\\asn_report.json",
+    "sha256": "62c84b264042082f15027cd7d891c97fa5814be66d7f4bc2cdb5004f985112d4",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:05:04.938077",
+    "description": "Location and ASN Look report",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cluster_profiles.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_14\\cluster_profiles.json",
+    "sha256": "7dec71903dab2cff546778ba59ecc6f32d47e02050439a0ab41f41eb5597e674",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:05:18.398399",
+    "description": "Cluster feature profiles from UMAP+HDBSCAN Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "label_provenance.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_16\\label_provenance.json",
+    "sha256": "0d8409d3fbdff1b4578d3ac12f0e8e42c7679fc7ffbff3a399df311f43121521",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:05:21.995792",
+    "description": "Label creation rules and provenance",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "model_comparison.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_17\\model_comparison.json",
+    "sha256": "e1fe68b00799f43df4b087e63cbd5fbad1c4a5497842edb1aecb780290547dc6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:05:30.888717",
+    "description": "Basic model comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "tuning_results.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_18\\tuning_results.json",
+    "sha256": "c3ad5f563ba1f47e3b9e1dd43b40a3de5cb471c41fe10725907bde55d44c2666",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:05:40.474929",
+    "description": "Parameter tuning results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "counterfactuals.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_19\\counterfactuals.json",
+    "sha256": "1a3004a01818687748003eab4fca3dcf910eaa28a31616d32a2cde018876b640",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:05:44.146407",
+    "description": "Counterfactual examples for threat predictions",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "imbalance_comparison.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_20\\imbalance_comparison.json",
+    "sha256": "5fa19ef023bccac3a2aaf4fbe5e70d586097c9bab27eabb7b426d8d1e9f6461b",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:05:46.421786",
+    "description": "Class imbalance handling comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "sequence_config.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_21\\sequence_config.json",
+    "sha256": "0772b7cc51cd46a97d7ff3ecdbfb283b9837265779121144aec3314252cc413c",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:05:48.513690",
+    "description": "Sequence model Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "change_Finding_results.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_22\\change_Finding_results.json",
+    "sha256": "35dca3315b81bb9e1df8616d6518758a391e4ef26187d0129837c55541378cd6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:05:50.681715",
+    "description": "Change point and drift Finding results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "priority_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_23\\priority_summary.json",
+    "sha256": "50aadb4d078c32905ecc21fa30b06ea45d3465b7262f0f088d943eebf90216ee",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:05:51.901276",
+    "description": "Alert priority summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "threat_hunting_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_24\\threat_hunting_report.json",
+    "sha256": "5363ac2d651666683c3620f4ac0f4c2429fd5e590767ce7f5dd661bfe63291ee",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:05:55.076756",
+    "description": "Threat hunting findings and IOCs",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Workflow_config.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_27\\Workflow_config.json",
+    "sha256": "03b1e4c3f190d8f3a81daa9656c3357fdca714bb3216b6a2c330118dead1f1e4",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:06:00.934707",
+    "description": "Live Workflow Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "ops_metrics_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_29\\ops_metrics_report.json",
+    "sha256": "9c2d55c7eff588ba0211f1b0cc1ee9bf3815b0e23674625d7bad5374e38f1715",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:06:04.504714",
+    "description": "Operational metrics report for threat Finding system",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Look_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_30\\Look_summary.json",
+    "sha256": "8a527b82e9dae0a88e0b447d597cbc49095542a42789cc932690f98d5893f9da",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-04T17:06:06.378213",
+    "description": "done Look summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "dataset_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+    "sha256": "8373f230b94be4609115c289dc2f74644c2aaaadc75dbbee78d3cdbc9512ad56",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:18:33.235598",
+    "description": "Project Settings and dataset summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "environment_info.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_02\\environment_info.json",
+    "sha256": "dba263c831c8b983149d321bb51296955d01350ecabb27f514de6cff860d9c54",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:18:53.974980",
+    "description": "done environment Settings and system information",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Loading_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_03\\Loading_report.json",
+    "sha256": "8b9c5d4ae6e154b89f34c661076c89131703a583db529114dc2f51be449d1c6b",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:19:01.546964",
+    "description": "Data Loading report with file metadata and load times",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "data_dictionary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\data_dictionary.json",
+    "sha256": "a00b12b6356b7ad396f32074ce5533bf423a0c6c4e94191e8fdebc2abc82e31f",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:19:04.481720",
+    "description": "full data dictionary with field metadata",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_json.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_json.json",
+    "sha256": "3426de8dfed32e0834bcf87a730c8de9a81b3b17a4e1e71a9ed0f801cd8bb616",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:19:04.508398",
+    "description": "JSON Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_avro.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_avro.json",
+    "sha256": "bd78e5abc5696e1f91ffe126b1fd5b6ac8319c19009352c652bfb435af924711",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:19:04.534015",
+    "description": "Avro Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "column_transforms.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_05\\column_transforms.json",
+    "sha256": "c653f1a62251678e5f3a1ca5af56ad4b086436b75b33b9ac48a7ff320067f336",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:19:06.962920",
+    "description": "Column Changing log including ARN parsing and timestamp Cleanup",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cleaning_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_06\\cleaning_report.json",
+    "sha256": "04cb852000a151a4e0a284058a8990322f96bfb839c3c72f54a685e2b1abaf87",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:19:09.268512",
+    "description": "Data cleaning report with duplicate and missing value Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Time_stats.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_07\\Time_stats.json",
+    "sha256": "ca485261f9714983824badd1cb1bc6ce41bdc862f483e7edfde92d68a649d7fc",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:19:12.244585",
+    "description": "Time Look statistics including hourly, daily, and weekly patterns",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "principal_stats.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_08\\principal_stats.json",
+    "sha256": "234d087a6885ee22d5e627d2daf1002fc8d33a557da8c6137d7ec8936691705e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:19:14.836090",
+    "description": "Principal and IAM Look statistics",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "eventname_map.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_09\\eventname_map.json",
+    "sha256": "4777c181295ca9c758deab2bc52621e650fbbffdc4fa9c1db4ba418ffae7015e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:19:16.880777",
+    "description": "Event name and service mapping with categorization",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "asn_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_10\\asn_report.json",
+    "sha256": "62c84b264042082f15027cd7d891c97fa5814be66d7f4bc2cdb5004f985112d4",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:19:19.665845",
+    "description": "Location and ASN Look report",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cluster_profiles.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_14\\cluster_profiles.json",
+    "sha256": "7dec71903dab2cff546778ba59ecc6f32d47e02050439a0ab41f41eb5597e674",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:19:33.488422",
+    "description": "Cluster feature profiles from UMAP+HDBSCAN Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "label_provenance.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_16\\label_provenance.json",
+    "sha256": "0d8409d3fbdff1b4578d3ac12f0e8e42c7679fc7ffbff3a399df311f43121521",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:19:36.922820",
+    "description": "Label creation rules and provenance",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "model_comparison.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_17\\model_comparison.json",
+    "sha256": "e1fe68b00799f43df4b087e63cbd5fbad1c4a5497842edb1aecb780290547dc6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:19:45.979942",
+    "description": "Basic model comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "tuning_results.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_18\\tuning_results.json",
+    "sha256": "c3ad5f563ba1f47e3b9e1dd43b40a3de5cb471c41fe10725907bde55d44c2666",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:19:55.219818",
+    "description": "Parameter tuning results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "counterfactuals.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_19\\counterfactuals.json",
+    "sha256": "1a3004a01818687748003eab4fca3dcf910eaa28a31616d32a2cde018876b640",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:19:58.793061",
+    "description": "Counterfactual examples for threat predictions",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "imbalance_comparison.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_20\\imbalance_comparison.json",
+    "sha256": "5fa19ef023bccac3a2aaf4fbe5e70d586097c9bab27eabb7b426d8d1e9f6461b",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:20:01.065225",
+    "description": "Class imbalance handling comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "sequence_config.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_21\\sequence_config.json",
+    "sha256": "4a12ca85a62333dea1bd9cf71b8af355b2aff01f627316804d089c85c083c549",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:20:02.966319",
+    "description": "Sequence model Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "change_Finding_results.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_22\\change_Finding_results.json",
+    "sha256": "35dca3315b81bb9e1df8616d6518758a391e4ef26187d0129837c55541378cd6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:20:05.001506",
+    "description": "Change point and drift Finding results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "priority_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_23\\priority_summary.json",
+    "sha256": "50aadb4d078c32905ecc21fa30b06ea45d3465b7262f0f088d943eebf90216ee",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:20:06.130401",
+    "description": "Alert priority summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "threat_hunting_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_24\\threat_hunting_report.json",
+    "sha256": "7d89cffed4e896176b4abc1190a0efaa824ff2b789411bf71c916b030c299611",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:20:09.374978",
+    "description": "Threat hunting findings and IOCs",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Workflow_config.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_27\\Workflow_config.json",
+    "sha256": "e441319aa89f686d6f54c8718cb5c622706af51ecc381bd09784d2fea5e5ebbb",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:20:15.145081",
+    "description": "Live Workflow Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "ops_metrics_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_29\\ops_metrics_report.json",
+    "sha256": "6a15d02c9c5293aef98de593aa0cc24e6876d4d1edf1390bbf3b246b25f44abb",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:20:18.916970",
+    "description": "Operational metrics report for threat Finding system",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Look_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_30\\Look_summary.json",
+    "sha256": "5ce401288a7b1262debc1dd9b219875df82233f20e8192f5154d2f221d90dd23",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-05T01:20:20.674798",
+    "description": "done Look summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "dataset_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+    "sha256": "fef928c4a5dd705197c35dcb8fe2fdfed207ea6452ccad5d0468d7b6975ab1bd",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:09:45.869676",
+    "description": "Project Settings and dataset summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "environment_info.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_02\\environment_info.json",
+    "sha256": "51ee164990887eaa3fa102bf51de2309d5ecff98519d05e8b64539e67ea1374c",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:09:56.397094",
+    "description": "done environment Settings and system information",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Loading_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_03\\Loading_report.json",
+    "sha256": "ac1cb89e820af924a9cecfbbe06c89f0a56b612f57d2e2b3b4dda8af2b49bfeb",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:10:04.502194",
+    "description": "Data Loading report with file metadata and load times",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "data_dictionary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\data_dictionary.json",
+    "sha256": "5922f84639df2fab238890c936d72106fc6fb86400bc4c9d82494a31adc45982",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:10:08.026361",
+    "description": "full data dictionary with field metadata",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_json.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_json.json",
+    "sha256": "3426de8dfed32e0834bcf87a730c8de9a81b3b17a4e1e71a9ed0f801cd8bb616",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:10:08.088906",
+    "description": "JSON Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_avro.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_avro.json",
+    "sha256": "bd78e5abc5696e1f91ffe126b1fd5b6ac8319c19009352c652bfb435af924711",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:10:08.113103",
+    "description": "Avro Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "column_transforms.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_05\\column_transforms.json",
+    "sha256": "c653f1a62251678e5f3a1ca5af56ad4b086436b75b33b9ac48a7ff320067f336",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:10:10.930650",
+    "description": "Column Changing log including ARN parsing and timestamp Cleanup",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cleaning_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_06\\cleaning_report.json",
+    "sha256": "09a3e88766dea6f3d1902d23c187dfc3c8c42d6965f7abe68107d4e528907a04",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:10:13.655711",
+    "description": "Data cleaning report with duplicate and missing value Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Time_stats.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_07\\Time_stats.json",
+    "sha256": "ca485261f9714983824badd1cb1bc6ce41bdc862f483e7edfde92d68a649d7fc",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:10:17.220767",
+    "description": "Time Look statistics including hourly, daily, and weekly patterns",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "principal_stats.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_08\\principal_stats.json",
+    "sha256": "234d087a6885ee22d5e627d2daf1002fc8d33a557da8c6137d7ec8936691705e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:10:20.350742",
+    "description": "Principal and IAM Look statistics",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "eventname_map.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_09\\eventname_map.json",
+    "sha256": "4777c181295ca9c758deab2bc52621e650fbbffdc4fa9c1db4ba418ffae7015e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:10:22.764634",
+    "description": "Event name and service mapping with categorization",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "asn_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_10\\asn_report.json",
+    "sha256": "62c84b264042082f15027cd7d891c97fa5814be66d7f4bc2cdb5004f985112d4",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:10:25.938365",
+    "description": "Location and ASN Look report",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cluster_profiles.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_14\\cluster_profiles.json",
+    "sha256": "7dec71903dab2cff546778ba59ecc6f32d47e02050439a0ab41f41eb5597e674",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:10:41.925194",
+    "description": "Cluster feature profiles from UMAP+HDBSCAN Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "label_provenance.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_16\\label_provenance.json",
+    "sha256": "0d8409d3fbdff1b4578d3ac12f0e8e42c7679fc7ffbff3a399df311f43121521",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:10:46.450991",
+    "description": "Label creation rules and provenance",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "model_comparison.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_17\\model_comparison.json",
+    "sha256": "e1fe68b00799f43df4b087e63cbd5fbad1c4a5497842edb1aecb780290547dc6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:10:57.545567",
+    "description": "Basic model comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "tuning_results.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_18\\tuning_results.json",
+    "sha256": "c3ad5f563ba1f47e3b9e1dd43b40a3de5cb471c41fe10725907bde55d44c2666",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:11:08.311251",
+    "description": "Parameter tuning results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "counterfactuals.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_19\\counterfactuals.json",
+    "sha256": "1a3004a01818687748003eab4fca3dcf910eaa28a31616d32a2cde018876b640",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:11:12.617702",
+    "description": "Counterfactual examples for threat predictions",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "imbalance_comparison.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_20\\imbalance_comparison.json",
+    "sha256": "5fa19ef023bccac3a2aaf4fbe5e70d586097c9bab27eabb7b426d8d1e9f6461b",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:11:15.463160",
+    "description": "Class imbalance handling comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "sequence_config.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_21\\sequence_config.json",
+    "sha256": "4a12ca85a62333dea1bd9cf71b8af355b2aff01f627316804d089c85c083c549",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:11:17.589302",
+    "description": "Sequence model Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "change_Finding_results.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_22\\change_Finding_results.json",
+    "sha256": "35dca3315b81bb9e1df8616d6518758a391e4ef26187d0129837c55541378cd6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:11:20.070490",
+    "description": "Change point and drift Finding results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "priority_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_23\\priority_summary.json",
+    "sha256": "50aadb4d078c32905ecc21fa30b06ea45d3465b7262f0f088d943eebf90216ee",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:11:21.400782",
+    "description": "Alert priority summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "threat_hunting_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_24\\threat_hunting_report.json",
+    "sha256": "dff72a4a9b8359a69cb2a5c0517dced711a21658610bc150f93b52249f6160c7",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:11:25.297121",
+    "description": "Threat hunting findings and IOCs",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Workflow_config.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_27\\Workflow_config.json",
+    "sha256": "f5f8b611843c8993f023e4aea9b2740084f7d65dac095cb4e66428d6c5c4f65e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:11:32.293743",
+    "description": "Live Workflow Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "ops_metrics_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_29\\ops_metrics_report.json",
+    "sha256": "da5746acfee71cfadcad6534e4561f4ab6cb50e664fef25660f9935562510158",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:11:36.626125",
+    "description": "Operational metrics report for threat Finding system",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Look_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_30\\Look_summary.json",
+    "sha256": "2f1eabde61e7b1e6071a6f0e0a22e4c0b643980d9bd441d452f53ce429e0e805",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:11:38.759989",
+    "description": "done Look summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "dataset_summary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+    "sha256": "166fa9eb3d9162b0e306ee7f03e1012f40067a3f806f059415f5ea894f263af4",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:20:59.618975",
+    "description": "Project Settings and dataset summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "environment_info.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_02\\environment_info.json",
+    "sha256": "1c771b8433db12a388edf00e098cf512a62e50dde3214f03ef4bbfbdcd0d215c",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:21:10.860035",
+    "description": "done environment Settings and system information",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Loading_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_03\\Loading_report.json",
+    "sha256": "c9fe1f32ff6649c7d411bda2416d3c22311294794b3f3b582e0dbfd634d99f7e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:21:20.832028",
+    "description": "Data Loading report with file metadata and load times",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "data_dictionary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\data_dictionary.json",
+    "sha256": "5922f84639df2fab238890c936d72106fc6fb86400bc4c9d82494a31adc45982",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:21:26.837896",
+    "description": "full data dictionary with field metadata",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_json.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_json.json",
+    "sha256": "3426de8dfed32e0834bcf87a730c8de9a81b3b17a4e1e71a9ed0f801cd8bb616",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:21:26.874591",
+    "description": "JSON Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_avro.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_avro.json",
+    "sha256": "bd78e5abc5696e1f91ffe126b1fd5b6ac8319c19009352c652bfb435af924711",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:21:26.898279",
+    "description": "Avro Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "column_transforms.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_05\\column_transforms.json",
+    "sha256": "c653f1a62251678e5f3a1ca5af56ad4b086436b75b33b9ac48a7ff320067f336",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:21:31.656398",
+    "description": "Column Changing log including ARN parsing and timestamp Cleanup",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cleaning_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_06\\cleaning_report.json",
+    "sha256": "34d9b775f3afbb2062f5053f06cafde46d6a04a018a155aa8bad21f329720312",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:21:36.419272",
+    "description": "Data cleaning report with duplicate and missing value Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Time_stats.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_07\\Time_stats.json",
+    "sha256": "ca485261f9714983824badd1cb1bc6ce41bdc862f483e7edfde92d68a649d7fc",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:21:42.666937",
+    "description": "Time Look statistics including hourly, daily, and weekly patterns",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "principal_stats.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_08\\principal_stats.json",
+    "sha256": "234d087a6885ee22d5e627d2daf1002fc8d33a557da8c6137d7ec8936691705e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:21:47.979543",
+    "description": "Principal and IAM Look statistics",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "eventname_map.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_09\\eventname_map.json",
+    "sha256": "4777c181295ca9c758deab2bc52621e650fbbffdc4fa9c1db4ba418ffae7015e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:21:52.318538",
+    "description": "Event name and service mapping with categorization",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "asn_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_10\\asn_report.json",
+    "sha256": "62c84b264042082f15027cd7d891c97fa5814be66d7f4bc2cdb5004f985112d4",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:21:58.096287",
+    "description": "Location and ASN Look report",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cluster_profiles.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_14\\cluster_profiles.json",
+    "sha256": "7dec71903dab2cff546778ba59ecc6f32d47e02050439a0ab41f41eb5597e674",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:22:23.483356",
+    "description": "Cluster feature profiles from UMAP+HDBSCAN Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "label_provenance.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_16\\label_provenance.json",
+    "sha256": "0d8409d3fbdff1b4578d3ac12f0e8e42c7679fc7ffbff3a399df311f43121521",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:22:30.702752",
+    "description": "Label creation rules and provenance",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "model_comparison.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_17\\model_comparison.json",
+    "sha256": "e1fe68b00799f43df4b087e63cbd5fbad1c4a5497842edb1aecb780290547dc6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:22:43.219286",
+    "description": "Basic model comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "tuning_results.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_18\\tuning_results.json",
+    "sha256": "c3ad5f563ba1f47e3b9e1dd43b40a3de5cb471c41fe10725907bde55d44c2666",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:23:08.762980",
+    "description": "Parameter tuning results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "counterfactuals.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_19\\counterfactuals.json",
+    "sha256": "1a3004a01818687748003eab4fca3dcf910eaa28a31616d32a2cde018876b640",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:23:15.032174",
+    "description": "Counterfactual examples for threat predictions",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "imbalance_comparison.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_20\\imbalance_comparison.json",
+    "sha256": "5fa19ef023bccac3a2aaf4fbe5e70d586097c9bab27eabb7b426d8d1e9f6461b",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:23:20.256686",
+    "description": "Class imbalance handling comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "sequence_config.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_21\\sequence_config.json",
+    "sha256": "24e75bdeacf804726aa5f268866c170f45b460c6df4c5833437949f04ce7566a",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:23:24.241080",
+    "description": "Sequence model Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "change_Finding_results.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_22\\change_Finding_results.json",
+    "sha256": "35dca3315b81bb9e1df8616d6518758a391e4ef26187d0129837c55541378cd6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:23:28.645027",
+    "description": "Change point and drift Finding results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "priority_summary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_23\\priority_summary.json",
+    "sha256": "50aadb4d078c32905ecc21fa30b06ea45d3465b7262f0f088d943eebf90216ee",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:23:31.093312",
+    "description": "Alert priority summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "threat_hunting_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_24\\threat_hunting_report.json",
+    "sha256": "dc1645ed91a9135b159097269aaabdfadd5b88ed79a81dafc1476aa50b0e5c66",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:23:37.726856",
+    "description": "Threat hunting findings and IOCs",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Workflow_config.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_27\\Workflow_config.json",
+    "sha256": "6115eb8a1a3b982a285b4789eb6fcc75cffa680d9e7c38ef2c6d433778adbc26",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:23:50.443724",
+    "description": "Live Workflow Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "ops_metrics_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_29\\ops_metrics_report.json",
+    "sha256": "562d907d047031b3cd4c80b9b1ee317f74834e2a12d5c980040da98abdabace2",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:23:58.077225",
+    "description": "Operational metrics report for threat Finding system",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Look_summary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_30\\Look_summary.json",
+    "sha256": "5fc095afefd456fa6d7ed693adf018d50efb9729f0d63a3017e77b5b956ffcb5",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:24:01.907781",
+    "description": "done Look summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "dataset_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+    "sha256": "a851903427ecbb19ab340dea14d358df92e40d7133823473acc3a3bf5eb27ae6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:27:56.659964",
+    "description": "Project Settings and dataset summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "environment_info.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_02\\environment_info.json",
+    "sha256": "30722d9fd80274ab7148fac5fbfffdfa2e409278e570e67677bf6accebbbb185",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:28:06.170554",
+    "description": "done environment Settings and system information",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Loading_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_03\\Loading_report.json",
+    "sha256": "4b45673aab11c2b854225ef8a70472e7507ec87a52004ffbcbe45e59014b9d0a",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:28:13.624017",
+    "description": "Data Loading report with file metadata and load times",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "data_dictionary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\data_dictionary.json",
+    "sha256": "5922f84639df2fab238890c936d72106fc6fb86400bc4c9d82494a31adc45982",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:28:16.426393",
+    "description": "full data dictionary with field metadata",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_json.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_json.json",
+    "sha256": "3426de8dfed32e0834bcf87a730c8de9a81b3b17a4e1e71a9ed0f801cd8bb616",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:28:16.442515",
+    "description": "JSON Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_avro.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_avro.json",
+    "sha256": "bd78e5abc5696e1f91ffe126b1fd5b6ac8319c19009352c652bfb435af924711",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:28:16.460983",
+    "description": "Avro Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "column_transforms.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_05\\column_transforms.json",
+    "sha256": "c653f1a62251678e5f3a1ca5af56ad4b086436b75b33b9ac48a7ff320067f336",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:28:18.779863",
+    "description": "Column Changing log including ARN parsing and timestamp Cleanup",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cleaning_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_06\\cleaning_report.json",
+    "sha256": "175c71aa6fe2cbc7dea14ece0fee91852b78aba9120387552464f3e7e4e1503c",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:28:21.046847",
+    "description": "Data cleaning report with duplicate and missing value Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Time_stats.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_07\\Time_stats.json",
+    "sha256": "ca485261f9714983824badd1cb1bc6ce41bdc862f483e7edfde92d68a649d7fc",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:28:24.166663",
+    "description": "Time Look statistics including hourly, daily, and weekly patterns",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "principal_stats.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_08\\principal_stats.json",
+    "sha256": "234d087a6885ee22d5e627d2daf1002fc8d33a557da8c6137d7ec8936691705e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:28:26.815312",
+    "description": "Principal and IAM Look statistics",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "eventname_map.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_09\\eventname_map.json",
+    "sha256": "4777c181295ca9c758deab2bc52621e650fbbffdc4fa9c1db4ba418ffae7015e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:28:28.745298",
+    "description": "Event name and service mapping with categorization",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "asn_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_10\\asn_report.json",
+    "sha256": "62c84b264042082f15027cd7d891c97fa5814be66d7f4bc2cdb5004f985112d4",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:28:31.406353",
+    "description": "Location and ASN Look report",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cluster_profiles.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_14\\cluster_profiles.json",
+    "sha256": "7dec71903dab2cff546778ba59ecc6f32d47e02050439a0ab41f41eb5597e674",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:28:44.146028",
+    "description": "Cluster feature profiles from UMAP+HDBSCAN Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "label_provenance.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_16\\label_provenance.json",
+    "sha256": "0d8409d3fbdff1b4578d3ac12f0e8e42c7679fc7ffbff3a399df311f43121521",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:28:47.520461",
+    "description": "Label creation rules and provenance",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "model_comparison.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_17\\model_comparison.json",
+    "sha256": "e1fe68b00799f43df4b087e63cbd5fbad1c4a5497842edb1aecb780290547dc6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:28:53.463970",
+    "description": "Basic model comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "tuning_results.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_18\\tuning_results.json",
+    "sha256": "c3ad5f563ba1f47e3b9e1dd43b40a3de5cb471c41fe10725907bde55d44c2666",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:29:02.459039",
+    "description": "Parameter tuning results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "counterfactuals.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_19\\counterfactuals.json",
+    "sha256": "1a3004a01818687748003eab4fca3dcf910eaa28a31616d32a2cde018876b640",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:29:05.979016",
+    "description": "Counterfactual examples for threat predictions",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "imbalance_comparison.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_20\\imbalance_comparison.json",
+    "sha256": "5fa19ef023bccac3a2aaf4fbe5e70d586097c9bab27eabb7b426d8d1e9f6461b",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:29:08.268728",
+    "description": "Class imbalance handling comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "sequence_config.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_21\\sequence_config.json",
+    "sha256": "0772b7cc51cd46a97d7ff3ecdbfb283b9837265779121144aec3314252cc413c",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:29:10.078368",
+    "description": "Sequence model Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "change_Finding_results.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_22\\change_Finding_results.json",
+    "sha256": "35dca3315b81bb9e1df8616d6518758a391e4ef26187d0129837c55541378cd6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:29:12.214978",
+    "description": "Change point and drift Finding results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "priority_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_23\\priority_summary.json",
+    "sha256": "50aadb4d078c32905ecc21fa30b06ea45d3465b7262f0f088d943eebf90216ee",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:29:13.334551",
+    "description": "Alert priority summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "threat_hunting_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_24\\threat_hunting_report.json",
+    "sha256": "4add4039df5a2897044c069310e942c7385d3048430f49a14ba78f38080948fe",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:29:16.624043",
+    "description": "Threat hunting findings and IOCs",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Workflow_config.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_27\\Workflow_config.json",
+    "sha256": "33fa0b87816591b9e69c2c7b9bfa4dde6f696c61a50fc349f5fbd33e8c6c6a6e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:29:22.405682",
+    "description": "Live Workflow Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "ops_metrics_report.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_29\\ops_metrics_report.json",
+    "sha256": "8df044bbcb8ae91aedff71de054e227a9fc850003efe00d832120f883fa68f7c",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:29:25.906811",
+    "description": "Operational metrics report for threat Finding system",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Look_summary.json",
+    "filepath": "c:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_30\\Look_summary.json",
+    "sha256": "ec7bf737dcf516768888754fdd319247862260ddf387162d497ef2e481141dbb",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T02:29:27.594015",
+    "description": "done Look summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "dataset_summary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+    "sha256": "226e2bae8f5c3bab948bc810cbcae211f1bea3e774bb35518ac87ba7e652b6be",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:41:44.778275",
+    "description": "Project Settings and dataset summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "environment_info.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_02\\environment_info.json",
+    "sha256": "6c4d91031477c1e8f03abd3fe741f981956f0b1ab0431acbac8a6a984b9e0157",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:41:57.473491",
+    "description": "done environment Settings and system information",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Loading_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_03\\Loading_report.json",
+    "sha256": "3b4d1ed3546cec96c22fe95ab5a8d7363ace90ea10c955462ade423939951be0",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:42:07.742684",
+    "description": "Data Loading report with file metadata and load times",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "data_dictionary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\data_dictionary.json",
+    "sha256": "5922f84639df2fab238890c936d72106fc6fb86400bc4c9d82494a31adc45982",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:42:13.979000",
+    "description": "full data dictionary with field metadata",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_json.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_json.json",
+    "sha256": "3426de8dfed32e0834bcf87a730c8de9a81b3b17a4e1e71a9ed0f801cd8bb616",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:42:13.991240",
+    "description": "JSON Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "schema_avro.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_avro.json",
+    "sha256": "bd78e5abc5696e1f91ffe126b1fd5b6ac8319c19009352c652bfb435af924711",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:42:14.001757",
+    "description": "Avro Schema for CloudTrail events",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "column_transforms.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_05\\column_transforms.json",
+    "sha256": "c653f1a62251678e5f3a1ca5af56ad4b086436b75b33b9ac48a7ff320067f336",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:42:18.891906",
+    "description": "Column Changing log including ARN parsing and timestamp Cleanup",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cleaning_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_06\\cleaning_report.json",
+    "sha256": "830664a57fa8288b7b8d46ec0b26d3857eebef2a2ca77072ec2f63ec37efaf2c",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:42:23.691593",
+    "description": "Data cleaning report with duplicate and missing value Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Time_stats.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_07\\Time_stats.json",
+    "sha256": "ca485261f9714983824badd1cb1bc6ce41bdc862f483e7edfde92d68a649d7fc",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:42:30.075434",
+    "description": "Time Look statistics including hourly, daily, and weekly patterns",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "principal_stats.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_08\\principal_stats.json",
+    "sha256": "234d087a6885ee22d5e627d2daf1002fc8d33a557da8c6137d7ec8936691705e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:42:35.451057",
+    "description": "Principal and IAM Look statistics",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "eventname_map.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_09\\eventname_map.json",
+    "sha256": "4777c181295ca9c758deab2bc52621e650fbbffdc4fa9c1db4ba418ffae7015e",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:42:39.765514",
+    "description": "Event name and service mapping with categorization",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "asn_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_10\\asn_report.json",
+    "sha256": "62c84b264042082f15027cd7d891c97fa5814be66d7f4bc2cdb5004f985112d4",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:42:45.701973",
+    "description": "Location and ASN Look report",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "cluster_profiles.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_14\\cluster_profiles.json",
+    "sha256": "7dec71903dab2cff546778ba59ecc6f32d47e02050439a0ab41f41eb5597e674",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:43:11.119399",
+    "description": "Cluster feature profiles from UMAP+HDBSCAN Look",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "label_provenance.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_16\\label_provenance.json",
+    "sha256": "0d8409d3fbdff1b4578d3ac12f0e8e42c7679fc7ffbff3a399df311f43121521",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:43:18.436641",
+    "description": "Label creation rules and provenance",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "model_comparison.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_17\\model_comparison.json",
+    "sha256": "e1fe68b00799f43df4b087e63cbd5fbad1c4a5497842edb1aecb780290547dc6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:43:32.249609",
+    "description": "Basic model comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "tuning_results.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_18\\tuning_results.json",
+    "sha256": "c3ad5f563ba1f47e3b9e1dd43b40a3de5cb471c41fe10725907bde55d44c2666",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:43:55.741503",
+    "description": "Parameter tuning results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "counterfactuals.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_19\\counterfactuals.json",
+    "sha256": "1a3004a01818687748003eab4fca3dcf910eaa28a31616d32a2cde018876b640",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:44:02.304705",
+    "description": "Counterfactual examples for threat predictions",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "imbalance_comparison.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_20\\imbalance_comparison.json",
+    "sha256": "5fa19ef023bccac3a2aaf4fbe5e70d586097c9bab27eabb7b426d8d1e9f6461b",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:44:07.270725",
+    "description": "Class imbalance handling comparison results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "sequence_config.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_21\\sequence_config.json",
+    "sha256": "0772b7cc51cd46a97d7ff3ecdbfb283b9837265779121144aec3314252cc413c",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:44:11.258232",
+    "description": "Sequence model Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "change_Finding_results.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_22\\change_Finding_results.json",
+    "sha256": "35dca3315b81bb9e1df8616d6518758a391e4ef26187d0129837c55541378cd6",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:44:15.719461",
+    "description": "Change point and drift Finding results",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "priority_summary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_23\\priority_summary.json",
+    "sha256": "50aadb4d078c32905ecc21fa30b06ea45d3465b7262f0f088d943eebf90216ee",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:44:18.208618",
+    "description": "Alert priority summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "threat_hunting_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_24\\threat_hunting_report.json",
+    "sha256": "edbb489bf94128fbbb9eb9d0f49c17a1a5dbf3a19229316ecd36b5b706aae544",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:44:25.083910",
+    "description": "Threat hunting findings and IOCs",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Workflow_config.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_27\\Workflow_config.json",
+    "sha256": "1cb85b32734313b66c53975712b3d8fb561cf4800fbe6794b83afad943c78e30",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:44:37.710057",
+    "description": "Live Workflow Settings",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "ops_metrics_report.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_29\\ops_metrics_report.json",
+    "sha256": "7268eb168ed4dc99f0ddbc445230ee6a18f101af63ab65ae8526c5346b01d1d0",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:44:45.396555",
+    "description": "Operational metrics report for threat Finding system",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  },
+  {
+    "filename": "Look_summary.json",
+    "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_30\\Look_summary.json",
+    "sha256": "01e0ed021808ad7824ff16331ec8366e54cf4104472448543fe37e808e16cd82",
+    "created_by": "Data Analytics Project",
+    "created_at": "2025-12-06T12:44:49.144361",
+    "description": "done Look summary",
+    "dataset_version": "1.0.0",
+    "notebook_version": "1.0.0"
+  }
+]

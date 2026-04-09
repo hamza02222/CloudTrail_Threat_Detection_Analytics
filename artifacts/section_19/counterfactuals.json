@@ -1,0 +1,34 @@
+{
+  "counterfactuals": [
+    {
+      "index": "16",
+      "changes": {
+        "resource_sensitivity": {
+          "original": 1.671142025347396,
+          "counterfactual": 1.357299187675296
+        }
+      },
+      "success": true
+    },
+    {
+      "index": "37",
+      "changes": {
+        "resource_sensitivity": {
+          "original": 1.671142025347396,
+          "counterfactual": 1.357299187675296
+        }
+      },
+      "success": true
+    },
+    {
+      "index": "49",
+      "changes": {
+        "resource_sensitivity": {
+          "original": 1.671142025347396,
+          "counterfactual": 1.357299187675296
+        }
+      },
+      "success": true
+    }
+  ]
+}

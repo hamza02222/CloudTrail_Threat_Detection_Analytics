@@ -1,0 +1,97 @@
+{
+  "timestamp": "2025-12-06T12:42:23.689478",
+  "original_rows": 20000,
+  "final_rows": 19806,
+  "rows_removed": 194,
+  "duplicate_rows_found": "194",
+  "duplicate_percentage": 0.97,
+  "duplicates_removed": 194,
+  "missing_value_summary": {
+    "eventID": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "eventTime": {
+      "null_count": 10000,
+      "null_percentage": 50.0
+    },
+    "sourceIPAddress": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "userAgent": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "eventName": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "eventSource": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "awsRegion": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "eventVersion": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "userIdentitytype": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "eventType": {
+      "null_count": 0,
+      "null_percentage": 0.0
+    },
+    "userIdentityaccountId": {
+      "null_count": 237,
+      "null_percentage": 1.18
+    },
+    "userIdentityprincipalId": {
+      "null_count": 237,
+      "null_percentage": 1.18
+    },
+    "userIdentityarn": {
+      "null_count": 237,
+      "null_percentage": 1.18
+    },
+    "userIdentityaccessKeyId": {
+      "null_count": 1179,
+      "null_percentage": 5.9
+    },
+    "userIdentityuserName": {
+      "null_count": 6581,
+      "null_percentage": 32.9
+    },
+    "errorCode": {
+      "null_count": 17950,
+      "null_percentage": 89.75
+    },
+    "errorMessage": {
+      "null_count": 8976,
+      "null_percentage": 44.88
+    },
+    "requestParametersinstanceType": {
+      "null_count": 9998,
+      "null_percentage": 49.99
+    },
+    "requestID": {
+      "null_count": 10011,
+      "null_percentage": 50.06
+    }
+  },
+  "pii_detected": {
+    "userIdentityaccessKeyId": {
+      "aws_access_key": 95
+    }
+  },
+  "strategies_applied": [
+    "keep_first",
+    "drop_high_null_columns"
+  ],
+  "pii_policy": "masked"
+}

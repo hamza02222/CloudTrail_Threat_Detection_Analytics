@@ -1,0 +1,7 @@
+{
+  "cusum_change_points": [],
+  "ruptures_change_points": [],
+  "drift_points": [],
+  "threshold": 5171.0,
+  "total_hours": 2
+}

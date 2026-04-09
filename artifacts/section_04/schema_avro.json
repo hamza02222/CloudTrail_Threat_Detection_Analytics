@@ -1,0 +1,160 @@
+{
+  "type": "record",
+  "name": "CloudTrailEvent",
+  "namespace": "com.aws.cloudtrail",
+  "doc": "AWS CloudTrail log event",
+  "fields": [
+    {
+      "name": "eventID",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: eventID"
+    },
+    {
+      "name": "eventTime",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: eventTime"
+    },
+    {
+      "name": "sourceIPAddress",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: sourceIPAddress"
+    },
+    {
+      "name": "userAgent",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: userAgent"
+    },
+    {
+      "name": "eventName",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: eventName"
+    },
+    {
+      "name": "eventSource",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: eventSource"
+    },
+    {
+      "name": "awsRegion",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: awsRegion"
+    },
+    {
+      "name": "eventVersion",
+      "type": [
+        "null",
+        "double"
+      ],
+      "doc": "CloudTrail field: eventVersion"
+    },
+    {
+      "name": "userIdentitytype",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: userIdentitytype"
+    },
+    {
+      "name": "eventType",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: eventType"
+    },
+    {
+      "name": "userIdentityaccountId",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: userIdentityaccountId"
+    },
+    {
+      "name": "userIdentityprincipalId",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: userIdentityprincipalId"
+    },
+    {
+      "name": "userIdentityarn",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: userIdentityarn"
+    },
+    {
+      "name": "userIdentityaccessKeyId",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: userIdentityaccessKeyId"
+    },
+    {
+      "name": "userIdentityuserName",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: userIdentityuserName"
+    },
+    {
+      "name": "errorCode",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: errorCode"
+    },
+    {
+      "name": "errorMessage",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: errorMessage"
+    },
+    {
+      "name": "requestParametersinstanceType",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: requestParametersinstanceType"
+    },
+    {
+      "name": "requestID",
+      "type": [
+        "null",
+        "string"
+      ],
+      "doc": "CloudTrail field: requestID"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "filename": "threat_hunting_report.json",
+  "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_24\\threat_hunting_report.json",
+  "sha256": "edbb489bf94128fbbb9eb9d0f49c17a1a5dbf3a19229316ecd36b5b706aae544",
+  "created_by": "Data Analytics Project",
+  "created_at": "2025-12-06T12:44:25.083910",
+  "description": "Threat hunting findings and IOCs",
+  "dataset_version": "1.0.0",
+  "notebook_version": "1.0.0"
+}

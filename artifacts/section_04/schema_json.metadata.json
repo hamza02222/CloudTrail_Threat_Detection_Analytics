@@ -1,0 +1,10 @@
+{
+  "filename": "schema_json.json",
+  "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\schema_json.json",
+  "sha256": "3426de8dfed32e0834bcf87a730c8de9a81b3b17a4e1e71a9ed0f801cd8bb616",
+  "created_by": "Data Analytics Project",
+  "created_at": "2025-12-06T12:42:13.991240",
+  "description": "JSON Schema for CloudTrail events",
+  "dataset_version": "1.0.0",
+  "notebook_version": "1.0.0"
+}

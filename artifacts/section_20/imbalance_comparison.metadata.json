@@ -1,0 +1,10 @@
+{
+  "filename": "imbalance_comparison.json",
+  "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_20\\imbalance_comparison.json",
+  "sha256": "5fa19ef023bccac3a2aaf4fbe5e70d586097c9bab27eabb7b426d8d1e9f6461b",
+  "created_by": "Data Analytics Project",
+  "created_at": "2025-12-06T12:44:07.270725",
+  "description": "Class imbalance handling comparison results",
+  "dataset_version": "1.0.0",
+  "notebook_version": "1.0.0"
+}

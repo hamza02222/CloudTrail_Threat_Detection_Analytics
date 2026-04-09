@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CloudTrail Event",
+  "description": "AWS CloudTrail log event schema",
+  "type": "object",
+  "properties": {
+    "eventID": {
+      "type": "string",
+      "description": "CloudTrail field: eventID"
+    },
+    "eventTime": {
+      "type": "string",
+      "description": "CloudTrail field: eventTime"
+    },
+    "sourceIPAddress": {
+      "type": "string",
+      "description": "CloudTrail field: sourceIPAddress"
+    },
+    "userAgent": {
+      "type": "string",
+      "description": "CloudTrail field: userAgent"
+    },
+    "eventName": {
+      "type": "string",
+      "description": "CloudTrail field: eventName"
+    },
+    "eventSource": {
+      "type": "string",
+      "description": "CloudTrail field: eventSource"
+    },
+    "awsRegion": {
+      "type": "string",
+      "description": "CloudTrail field: awsRegion"
+    },
+    "eventVersion": {
+      "type": "number",
+      "description": "CloudTrail field: eventVersion"
+    },
+    "userIdentitytype": {
+      "type": "string",
+      "description": "CloudTrail field: userIdentitytype"
+    },
+    "eventType": {
+      "type": "string",
+      "description": "CloudTrail field: eventType"
+    },
+    "userIdentityaccountId": {
+      "type": "string",
+      "description": "CloudTrail field: userIdentityaccountId"
+    },
+    "userIdentityprincipalId": {
+      "type": "string",
+      "description": "CloudTrail field: userIdentityprincipalId"
+    },
+    "userIdentityarn": {
+      "type": "string",
+      "description": "CloudTrail field: userIdentityarn"
+    },
+    "userIdentityaccessKeyId": {
+      "type": "string",
+      "description": "CloudTrail field: userIdentityaccessKeyId"
+    },
+    "userIdentityuserName": {
+      "type": "string",
+      "description": "CloudTrail field: userIdentityuserName"
+    },
+    "errorCode": {
+      "type": "string",
+      "description": "CloudTrail field: errorCode"
+    },
+    "errorMessage": {
+      "type": "string",
+      "description": "CloudTrail field: errorMessage"
+    },
+    "requestParametersinstanceType": {
+      "type": "string",
+      "description": "CloudTrail field: requestParametersinstanceType"
+    },
+    "requestID": {
+      "type": "string",
+      "description": "CloudTrail field: requestID"
+    }
+  }
+}

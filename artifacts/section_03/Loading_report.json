@@ -1,0 +1,95 @@
+{
+  "timestamp": "2025-12-06T12:42:07.662584",
+  "total_files": 2,
+  "total_rows": 20000,
+  "total_columns": 19,
+  "memory_usage_mb": 20.74,
+  "total_load_time_sec": 0.1,
+  "sample_mode": true,
+  "sample_size": 10000,
+  "file_metadata": [
+    {
+      "filename": "dec12_18features.csv",
+      "size_mb": 371.71,
+      "path": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\dec12_18features.csv"
+    },
+    {
+      "filename": "nineteenFeaturesDf.csv",
+      "size_mb": 388.78,
+      "path": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\nineteenFeaturesDf.csv"
+    }
+  ],
+  "load_times": [
+    {
+      "file": "dec12_18features.csv",
+      "load_time_sec": 0.03995656967163086
+    },
+    {
+      "file": "nineteenFeaturesDf.csv",
+      "load_time_sec": 0.0493011474609375
+    }
+  ],
+  "columns": [
+    "eventID",
+    "eventTime",
+    "sourceIPAddress",
+    "userAgent",
+    "eventName",
+    "eventSource",
+    "awsRegion",
+    "eventVersion",
+    "userIdentitytype",
+    "eventType",
+    "userIdentityaccountId",
+    "userIdentityprincipalId",
+    "userIdentityarn",
+    "userIdentityaccessKeyId",
+    "userIdentityuserName",
+    "errorCode",
+    "errorMessage",
+    "requestParametersinstanceType",
+    "requestID"
+  ],
+  "dtypes": {
+    "eventID": "object",
+    "eventTime": "object",
+    "sourceIPAddress": "object",
+    "userAgent": "object",
+    "eventName": "object",
+    "eventSource": "object",
+    "awsRegion": "object",
+    "eventVersion": "float64",
+    "userIdentitytype": "object",
+    "eventType": "object",
+    "userIdentityaccountId": "object",
+    "userIdentityprincipalId": "object",
+    "userIdentityarn": "object",
+    "userIdentityaccessKeyId": "object",
+    "userIdentityuserName": "object",
+    "errorCode": "object",
+    "errorMessage": "object",
+    "requestParametersinstanceType": "object",
+    "requestID": "object"
+  },
+  "null_percentages": {
+    "eventID": 0.0,
+    "eventTime": 0.0,
+    "sourceIPAddress": 0.0,
+    "userAgent": 0.0,
+    "eventName": 0.0,
+    "eventSource": 0.0,
+    "awsRegion": 0.0,
+    "eventVersion": 0.0,
+    "userIdentitytype": 0.0,
+    "eventType": 0.0,
+    "userIdentityaccountId": 1.18,
+    "userIdentityprincipalId": 1.18,
+    "userIdentityarn": 1.18,
+    "userIdentityaccessKeyId": 5.9,
+    "userIdentityuserName": 32.9,
+    "errorCode": 89.75,
+    "errorMessage": 44.88,
+    "requestParametersinstanceType": 49.99,
+    "requestID": 50.06
+  }
+}

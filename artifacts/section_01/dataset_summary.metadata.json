@@ -1,0 +1,10 @@
+{
+  "filename": "dataset_summary.json",
+  "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_01\\dataset_summary.json",
+  "sha256": "226e2bae8f5c3bab948bc810cbcae211f1bea3e774bb35518ac87ba7e652b6be",
+  "created_by": "Data Analytics Project",
+  "created_at": "2025-12-06T12:41:44.778275",
+  "description": "Project Settings and dataset summary",
+  "dataset_version": "1.0.0",
+  "notebook_version": "1.0.0"
+}

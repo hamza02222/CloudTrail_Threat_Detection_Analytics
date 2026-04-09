@@ -1,0 +1,12 @@
+{
+  "Look_date": "2025-12-06T12:44:49.143245",
+  "notebook_version": "1.0.0",
+  "total_events": 19806,
+  "threats_detected": 1243,
+  "Finding_rate": 6.275875997172574,
+  "best_model": "RandomForest",
+  "model_f1": 0.8,
+  "model_auc": 0.85,
+  "total_artifacts": 99,
+  "sections_doned": 30
+}

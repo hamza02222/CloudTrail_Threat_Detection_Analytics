@@ -1,0 +1,344 @@
+{
+  "eventID": {
+    "name": "eventID",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 0,
+    "null_percentage": 0.0,
+    "unique_count": 9903,
+    "entropy": 13.2683,
+    "sample_values": [
+      "3038ebd2-c98a-4c65-9b6e-e22506292313",
+      "22a0d9b1-deea-4d39-827b-2af7050ed3f3",
+      "9facf7ca-cb76-4b19-940c-3de6803f7efb",
+      "6596d3b4-7c98-40b1-867d-f317f1dbdc18",
+      "9f9d038c-e5a5-443e-83d5-4cf00941d399"
+    ],
+    "description": "CloudTrail field: eventID"
+  },
+  "eventTime": {
+    "name": "eventTime",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 0,
+    "null_percentage": 0.0,
+    "unique_count": 4879,
+    "entropy": 7.1528,
+    "sample_values": [
+      "2017-02",
+      "2017-02",
+      "2017-02",
+      "2017-02",
+      "2017-02"
+    ],
+    "description": "CloudTrail field: eventTime"
+  },
+  "sourceIPAddress": {
+    "name": "sourceIPAddress",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 0,
+    "null_percentage": 0.0,
+    "unique_count": 464,
+    "entropy": 4.566,
+    "sample_values": [
+      "255.253",
+      "255.253",
+      "255.253",
+      "255.253",
+      "255.253"
+    ],
+    "description": "CloudTrail field: sourceIPAddress"
+  },
+  "userAgent": {
+    "name": "userAgent",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 0,
+    "null_percentage": 0.0,
+    "unique_count": 299,
+    "entropy": 4.4799,
+    "sample_values": [
+      "[S3Console",
+      "console.amazonaws.com",
+      "console.amazonaws.com",
+      "console.amazonaws.com",
+      "console.amazonaws.com"
+    ],
+    "description": "CloudTrail field: userAgent"
+  },
+  "eventName": {
+    "name": "eventName",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 0,
+    "null_percentage": 0.0,
+    "unique_count": 247,
+    "entropy": 6.0813,
+    "sample_values": [
+      "ListBuckets",
+      "GetAccountPasswordPolicy",
+      "GetAccountSummary",
+      "ListAccountAliases",
+      "ListMFADevices"
+    ],
+    "description": "CloudTrail field: eventName"
+  },
+  "eventSource": {
+    "name": "eventSource",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 0,
+    "null_percentage": 0.0,
+    "unique_count": 32,
+    "entropy": 2.7025,
+    "sample_values": [
+      "s3.amazonaws.com",
+      "iam.amazonaws.com",
+      "iam.amazonaws.com",
+      "iam.amazonaws.com",
+      "iam.amazonaws.com"
+    ],
+    "description": "CloudTrail field: eventSource"
+  },
+  "awsRegion": {
+    "name": "awsRegion",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 0,
+    "null_percentage": 0.0,
+    "unique_count": 14,
+    "entropy": 1.0871,
+    "sample_values": [
+      "us-east-1",
+      "us-east-1",
+      "us-east-1",
+      "us-east-1",
+      "us-east-1"
+    ],
+    "description": "CloudTrail field: awsRegion"
+  },
+  "eventVersion": {
+    "name": "eventVersion",
+    "dtype": "float64",
+    "json_type": "number",
+    "avro_type": "double",
+    "null_count": 0,
+    "null_percentage": 0.0,
+    "unique_count": 4,
+    "entropy": 1.4908,
+    "sample_values": [
+      "1.04",
+      "1.02",
+      "1.02",
+      "1.02",
+      "1.02"
+    ],
+    "description": "CloudTrail field: eventVersion"
+  },
+  "userIdentitytype": {
+    "name": "userIdentitytype",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 0,
+    "null_percentage": 0.0,
+    "unique_count": 4,
+    "entropy": 1.1816,
+    "sample_values": [
+      "Root",
+      "Root",
+      "Root",
+      "Root",
+      "Root"
+    ],
+    "description": "CloudTrail field: userIdentitytype"
+  },
+  "eventType": {
+    "name": "eventType",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 0,
+    "null_percentage": 0.0,
+    "unique_count": 2,
+    "entropy": 0.0124,
+    "sample_values": [
+      "AwsApiCall",
+      "AwsApiCall",
+      "AwsApiCall",
+      "AwsApiCall",
+      "AwsApiCall"
+    ],
+    "description": "CloudTrail field: eventType"
+  },
+  "userIdentityaccountId": {
+    "name": "userIdentityaccountId",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 237,
+    "null_percentage": 1.18,
+    "unique_count": 3,
+    "entropy": 1.0817,
+    "sample_values": [
+      "8.11596E+11",
+      "8.11596E+11",
+      "8.11596E+11",
+      "8.11596E+11",
+      "8.11596E+11"
+    ],
+    "description": "CloudTrail field: userIdentityaccountId"
+  },
+  "userIdentityprincipalId": {
+    "name": "userIdentityprincipalId",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 237,
+    "null_percentage": 1.18,
+    "unique_count": 13,
+    "entropy": 2.084,
+    "sample_values": [
+      "8.11596E+11",
+      "8.11596E+11",
+      "8.11596E+11",
+      "8.11596E+11",
+      "8.11596E+11"
+    ],
+    "description": "CloudTrail field: userIdentityprincipalId"
+  },
+  "userIdentityarn": {
+    "name": "userIdentityarn",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 237,
+    "null_percentage": 1.18,
+    "unique_count": 11,
+    "entropy": 1.4558,
+    "sample_values": [
+      "arn:aws:iam::811596193553:root",
+      "arn:aws:iam::811596193553:root",
+      "arn:aws:iam::811596193553:root",
+      "arn:aws:iam::811596193553:root",
+      "arn:aws:iam::811596193553:root"
+    ],
+    "description": "CloudTrail field: userIdentityarn"
+  },
+  "userIdentityaccessKeyId": {
+    "name": "userIdentityaccessKeyId",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 1179,
+    "null_percentage": 5.9,
+    "unique_count": 103,
+    "entropy": 4.0345,
+    "sample_values": [
+      "Unknown",
+      "ASIA79EXPHZ8SRL55OOE",
+      "ASIA79EXPHZ8SRL55OOE",
+      "ASIA79EXPHZ8SRL55OOE",
+      "ASIA79EXPHZ8SRL55OOE"
+    ],
+    "description": "CloudTrail field: userIdentityaccessKeyId"
+  },
+  "userIdentityuserName": {
+    "name": "userIdentityuserName",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 6581,
+    "null_percentage": 32.9,
+    "unique_count": 4,
+    "entropy": 1.4495,
+    "sample_values": [
+      "Unknown",
+      "Unknown",
+      "Unknown",
+      "Unknown",
+      "Unknown"
+    ],
+    "description": "CloudTrail field: userIdentityuserName"
+  },
+  "errorCode": {
+    "name": "errorCode",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 17950,
+    "null_percentage": 89.75,
+    "unique_count": 30,
+    "entropy": 3.4208,
+    "sample_values": [
+      "NoSuchEntityException",
+      "NoSuchEntityException",
+      "NoSuchEntityException",
+      "Client.InvalidParameterValue",
+      "Client.InvalidParameterValue"
+    ],
+    "description": "CloudTrail field: errorCode"
+  },
+  "errorMessage": {
+    "name": "errorMessage",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 8976,
+    "null_percentage": 44.88,
+    "unique_count": 163,
+    "entropy": 1.7275,
+    "sample_values": [
+      "NoError",
+      "The Password Policy with domain name 811596193553 cannot be found.",
+      "NoError",
+      "NoError",
+      "NoError"
+    ],
+    "description": "CloudTrail field: errorMessage"
+  },
+  "requestParametersinstanceType": {
+    "name": "requestParametersinstanceType",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 9998,
+    "null_percentage": 49.99,
+    "unique_count": 2,
+    "entropy": 0.0051,
+    "sample_values": [
+      "NotApplicable",
+      "NotApplicable",
+      "NotApplicable",
+      "NotApplicable",
+      "NotApplicable"
+    ],
+    "description": "CloudTrail field: requestParametersinstanceType"
+  },
+  "requestID": {
+    "name": "requestID",
+    "dtype": "object",
+    "json_type": "string",
+    "avro_type": "string",
+    "null_count": 10011,
+    "null_percentage": 50.06,
+    "unique_count": 9889,
+    "entropy": 13.2659,
+    "sample_values": [
+      "83A6C73FE87F51FF",
+      "b833be53-f15d-11e6-8abe-9409ef6d52ab",
+      "b110697b2-f15d-11e6-8abe-9409ef6d52ab",
+      "b8382b24-f15d-11e6-8abe-9409ef6d52ab",
+      "b567111c6-f15d-11e6-8abe-9409ef6d52ab"
+    ],
+    "description": "CloudTrail field: requestID"
+  }
+}

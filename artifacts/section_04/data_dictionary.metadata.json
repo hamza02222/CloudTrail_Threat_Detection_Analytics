@@ -1,0 +1,10 @@
+{
+  "filename": "data_dictionary.json",
+  "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_04\\data_dictionary.json",
+  "sha256": "5922f84639df2fab238890c936d72106fc6fb86400bc4c9d82494a31adc45982",
+  "created_by": "Data Analytics Project",
+  "created_at": "2025-12-06T12:42:13.979000",
+  "description": "full data dictionary with field metadata",
+  "dataset_version": "1.0.0",
+  "notebook_version": "1.0.0"
+}

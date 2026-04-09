@@ -1,0 +1,43 @@
+{
+  "feature_columns": [
+    "eventVersion",
+    "hour",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "is_business_hours",
+    "geo_lat",
+    "geo_lon",
+    "asn_risk_score",
+    "resource_sensitivity",
+    "iso_forest_score",
+    "iso_forest_anomaly",
+    "ensemble_score",
+    "is_anomaly",
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "eventName_encoded",
+    "eventSource_encoded"
+  ],
+  "best_model": "RandomForest",
+  "results": {
+    "LogisticRegression": {
+      "cv_f1_mean": 0.44781206872412166,
+      "cv_f1_std": 0.1543405088134062,
+      "cv_auc_mean": 0.9612057300211221,
+      "cv_auc_std": 0.00751289774853528,
+      "accuracy": 0.8908411592446733,
+      "f1": 0.516331096196868
+    },
+    "RandomForest": {
+      "cv_f1_mean": 0.9035027162544301,
+      "cv_f1_std": 0.02510830787224128,
+      "cv_auc_mean": 0.9990887133356916,
+      "cv_auc_std": 0.0006131012388845669,
+      "accuracy": 1.0,
+      "f1": 1.0
+    }
+  }
+}

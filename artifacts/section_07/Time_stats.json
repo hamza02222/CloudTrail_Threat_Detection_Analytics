@@ -1,0 +1,40 @@
+{
+  "hourly": {
+    "counts": {
+      "0.0": 9903
+    },
+    "peak_hour": 0,
+    "min_hour": 0,
+    "mean": 9903.0,
+    "std": NaN
+  },
+  "daily": {
+    "mean": 4951.5,
+    "std": 3656.449165515637,
+    "max": 7537,
+    "min": 2366
+  },
+  "day_of_week": {
+    "counts": {
+      "Monday": 0,
+      "Tuesday": 0,
+      "Wednesday": 9903,
+      "Thursday": 0,
+      "Friday": 0,
+      "Saturday": 0,
+      "Sunday": 0
+    },
+    "busiest_day": "Wednesday",
+    "quietest_day": "Wednesday"
+  },
+  "weekend_Look": {
+    "weekday_events": 19806,
+    "weekend_events": 0,
+    "weekend_ratio": 0.0
+  },
+  "business_hours": {
+    "business_hours_events": 0,
+    "off_hours_events": 19806,
+    "off_hours_ratio": 1.0
+  }
+}

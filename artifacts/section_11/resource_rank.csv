@@ -1,0 +1,10 @@
+resource,access_count,sensitivity,risk_score
+arn:aws:s3:::company-data-bucket,3972,0.6,0.6
+arn:aws:ec2:us-west-2:123456789012:instance/i-prod-web,3011,0.7,0.5306394763343404
+arn:aws:s3:::logs-bucket,2939,0.4,0.29597180261832834
+arn:aws:s3:::public-website,2019,0.3,0.15249244712990934
+arn:aws:ec2:us-west-2:123456789012:instance/i-prod-db,1974,0.7,0.34788519637462234
+arn:aws:iam::123456789012:user/admin,1938,0.8,0.39033232628398795
+arn:aws:iam::123456789012:role/AdminRole,1585,0.8,0.3192346424974824
+arn:aws:lambda:us-west-2:123456789012:function:data-processor,1380,0.6,0.2084592145015106
+arn:aws:kms:us-west-2:123456789012:key/1234-5678,988,0.9,0.22386706948640483

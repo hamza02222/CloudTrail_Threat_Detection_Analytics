@@ -1,0 +1,36 @@
+{
+  "unique_ips": 464,
+  "countries": {
+    "United States": 6911,
+    "United Kingdom": 2030,
+    "Germany": 2019,
+    "Japan": 1580,
+    "India": 1562,
+    "Australia": 1375,
+    "China": 1349,
+    "Russia": 1020,
+    "Canada": 988,
+    "Brazil": 972
+  },
+  "asns": {
+    "AS16509 Amazon": 4907,
+    "AS8075 Microsoft": 3019,
+    "AS15169 Google": 2962,
+    "AS13335 Cloudflare": 2938,
+    "AS7922 Comcast": 2051,
+    "AS4837 China Unicom": 1656,
+    "AS12389 Rostelecom": 1369,
+    "AS9121 Turk Telekom": 904
+  },
+  "asn_risk_scores": {
+    "AS16509 Amazon": 0.1,
+    "AS15169 Google": 0.1,
+    "AS8075 Microsoft": 0.1,
+    "AS13335 Cloudflare": 0.2,
+    "AS7922 Comcast": 0.3,
+    "AS4837 China Unicom": 0.6,
+    "AS12389 Rostelecom": 0.7,
+    "AS9121 Turk Telekom": 0.5
+  },
+  "high_risk_events": 3025
+}

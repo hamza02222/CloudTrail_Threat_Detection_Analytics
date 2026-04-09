@@ -1,0 +1,10 @@
+{
+  "filename": "model_comparison.json",
+  "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_17\\model_comparison.json",
+  "sha256": "e1fe68b00799f43df4b087e63cbd5fbad1c4a5497842edb1aecb780290547dc6",
+  "created_by": "Data Analytics Project",
+  "created_at": "2025-12-06T12:43:32.249609",
+  "description": "Basic model comparison results",
+  "dataset_version": "1.0.0",
+  "notebook_version": "1.0.0"
+}

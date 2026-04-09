@@ -1,0 +1,43 @@
+
+================================================================================
+EXECUTIVE SUMMARY: CloudTrail Security Analytics
+================================================================================
+
+PROJECT OVERVIEW
+----------------
+Title: CloudTrail Threat Finding, Security Analytics & Behavior Info
+Source: Kaggle: nobukim/aws-cloudtrails-dataset-from-flaws-cloud
+Generated: 2025-12-06T12:41:44.775622
+
+Settings
+-------------
+* Random Seed: 42
+* Sample Mode: True
+* Dataset Version: 1.0.0
+
+SUCCESS CRITERIA (KPIs)
+-----------------------
+* Precision@100: >= 0.85
+* Minimum Recall: >= 0.7
+* Target F1 Score: >= 0.8
+* Minimum AUC-ROC: >= 0.9
+* Max False Positive Rate: <= 0.05
+
+RUNTIME SLA
+-----------
+* Maximum Full Run: 4 hours
+* Maximum per Section: 30 minutes
+
+COST ESTIMATION
+---------------
+* Low: $0.20
+* Medium: $2.00  
+* High: $8.00
+
+DATA QUALITY
+------------
+* Quality Score: 100%
+* Files Found: 2
+* All Checks Passed: True
+
+================================================================================

@@ -1,0 +1,23 @@
+{
+  "total_unique_principals": 299,
+  "top_principals": {
+    "console.amazonaws.com": 4440,
+    "aws-cli": 2978,
+    "console.ec2.amazonaws.com": 2150,
+    "Apache-HttpClient/4.5.x (Java/1.8.0_102)": 1235,
+    "Apache-HttpClient": 1235,
+    "[S3Console": 1170,
+    "[S3Console/0.4]": 1170,
+    "aws-cli/1.2.9 Python/3.4.3 Linux/4.4.0-53-generic": 570,
+    "ec2.amazonaws.com": 410,
+    "[aws-cli": 281
+  },
+  "principal_types": {
+    "Other": 299
+  },
+  "role_chains": {
+    "single_hop": 331,
+    "two_hop": 98,
+    "multi_hop": 51
+  }
+}

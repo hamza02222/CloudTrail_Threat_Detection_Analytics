@@ -1,0 +1,90 @@
+{
+  "hunt_summary": {
+    "privilege_escalation": {
+      "name": "Privilege Escalation Attempts",
+      "mitre": "TA0004/T1078",
+      "severity": "HIGH",
+      "total_matches": 46,
+      "high_risk_matches": 1,
+      "sample_events": {
+        "CreateUser": 16,
+        "CreateAccessKey": 16,
+        "AttachUserPolicy": 12,
+        "AttachRolePolicy": 2
+      }
+    },
+    "credential_access": {
+      "name": "Credential Access/Theft",
+      "mitre": "TA0006/T1552",
+      "severity": "CRITICAL",
+      "total_matches": 2,
+      "high_risk_matches": 0,
+      "sample_events": {
+        "GetPasswordData": 2
+      }
+    },
+    "defense_evasion": {
+      "name": "Defense Evasion",
+      "mitre": "TA0005/T1562",
+      "severity": "CRITICAL",
+      "total_matches": 0,
+      "high_risk_matches": 0,
+      "sample_events": {}
+    },
+    "data_exfil": {
+      "name": "Data Exfiltration Attempts",
+      "mitre": "TA0010/T1537",
+      "severity": "HIGH",
+      "total_matches": 14,
+      "high_risk_matches": 0,
+      "sample_events": {
+        "ModifySnapshotAttribute": 8,
+        "CreateSnapshot": 6
+      }
+    },
+    "recon": {
+      "name": "Reconnaissance Activity",
+      "mitre": "TA0007/T1087",
+      "severity": "MEDIUM",
+      "total_matches": 1396,
+      "high_risk_matches": 0,
+      "sample_events": {
+        "ListBuckets": 654,
+        "DescribeInstances": 402,
+        "GetAccountSummary": 166,
+        "DescribeSecurityGroups": 92,
+        "ListUsers": 82
+      }
+    },
+    "initial_access": {
+      "name": "Unusual Initial Access",
+      "mitre": "TA0001/T1078.004",
+      "severity": "MEDIUM",
+      "total_matches": 502,
+      "high_risk_matches": 0,
+      "sample_events": {
+        "AssumeRole": 480,
+        "ConsoleLogin": 22
+      }
+    }
+  },
+  "iocs": {
+    "suspicious_identities": [],
+    "suspicious_ips": [],
+    "suspicious_events": [
+      "ListBuckets",
+      "DescribeSnapshots",
+      "AssumeRole",
+      "GetStages",
+      "DescribeInstances",
+      "GetPolicy202224v2",
+      "GetBucketLocation",
+      "GetBucketAcl",
+      "DescribeSpotPriceHistory",
+      "GetAccountSummary"
+    ],
+    "suspicious_resources": []
+  },
+  "timestamp": "2025-12-06T12:44:25.081805",
+  "total_events_analyzed": 19806
+}

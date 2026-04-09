@@ -1,0 +1,41 @@
+{
+  "rules": {
+    "privilege_escalation": {
+      "patterns": [
+        "CreateUser",
+        "AttachUserPolicy",
+        "CreateAccessKey",
+        "AssumeRole"
+      ],
+      "weight": 0.9
+    },
+    "s3_data_exfil": {
+      "patterns": [
+        "GetObject",
+        "ListBuckets",
+        "GetBucketAcl"
+      ],
+      "weight": 0.7
+    },
+    "credential_theft": {
+      "patterns": [
+        "GetSecretValue",
+        "DescribeSecret",
+        "ListSecrets"
+      ],
+      "weight": 0.95
+    },
+    "recon": {
+      "patterns": [
+        "DescribeInstances",
+        "ListUsers",
+        "GetAccountSummary"
+      ],
+      "weight": 0.5
+    }
+  },
+  "label_stats": {
+    "0": 18563,
+    "1": 1243
+  }
+}

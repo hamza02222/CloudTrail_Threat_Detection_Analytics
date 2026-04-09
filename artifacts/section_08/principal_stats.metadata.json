@@ -1,0 +1,10 @@
+{
+  "filename": "principal_stats.json",
+  "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_08\\principal_stats.json",
+  "sha256": "234d087a6885ee22d5e627d2daf1002fc8d33a557da8c6137d7ec8936691705e",
+  "created_by": "Data Analytics Project",
+  "created_at": "2025-12-06T12:42:35.451057",
+  "description": "Principal and IAM Look statistics",
+  "dataset_version": "1.0.0",
+  "notebook_version": "1.0.0"
+}

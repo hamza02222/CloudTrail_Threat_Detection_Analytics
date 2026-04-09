@@ -1,0 +1,12 @@
+{
+  "original_columns": 19,
+  "Changings_applied": [],
+  "arn_columns_parsed": [
+    "userIdentityarn"
+  ],
+  "timestamp_columns_normalized": [
+    "eventTime"
+  ],
+  "final_columns": 19,
+  "columns_added": 0
+}

@@ -1,0 +1,11 @@
+{
+  "priority_distribution": {
+    "INFO": 18464,
+    "LOW": 1112,
+    "MEDIUM": 229,
+    "HIGH": 1
+  },
+  "total_alerts": 19806,
+  "critical_count": 0,
+  "high_count": 1
+}

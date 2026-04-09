@@ -1,0 +1,10 @@
+{
+  "filename": "priority_summary.json",
+  "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_23\\priority_summary.json",
+  "sha256": "50aadb4d078c32905ecc21fa30b06ea45d3465b7262f0f088d943eebf90216ee",
+  "created_by": "Data Analytics Project",
+  "created_at": "2025-12-06T12:44:18.208618",
+  "description": "Alert priority summary",
+  "dataset_version": "1.0.0",
+  "notebook_version": "1.0.0"
+}

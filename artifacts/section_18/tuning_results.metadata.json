@@ -1,0 +1,10 @@
+{
+  "filename": "tuning_results.json",
+  "filepath": "C:\\Users\\Public\\AWS Cloudtrails Dataset from flaws.cloud\\artifacts\\section_18\\tuning_results.json",
+  "sha256": "c3ad5f563ba1f47e3b9e1dd43b40a3de5cb471c41fe10725907bde55d44c2666",
+  "created_by": "Data Analytics Project",
+  "created_at": "2025-12-06T12:43:55.741503",
+  "description": "Parameter tuning results",
+  "dataset_version": "1.0.0",
+  "notebook_version": "1.0.0"
+}
